@@ -11,5 +11,22 @@ export const site = {
   github: "https://github.com/BenLalor",
   linkedin: "https://www.linkedin.com/in/ben-lalor-1aab8997",
   resumePdf: "/resume/BenLalor_Resume.pdf",
-  resumePdfLabel: "Resume (Oct 2024 PDF)",
+  resumePdfLabel: "Current published PDF (Oct 2024)",
+  resumeDrafts: [
+    {
+      label: "Software-forward",
+      href: "/resume/drafts/BenLalor_Resume_Software.pdf",
+      filename: "BenLalor_Resume_Software.pdf",
+    },
+    {
+      label: "Energy-codes-forward",
+      href: "/resume/drafts/BenLalor_Resume_EnergyCodes.pdf",
+      filename: "BenLalor_Resume_EnergyCodes.pdf",
+    },
+    {
+      label: "Hybrid",
+      href: "/resume/drafts/BenLalor_Resume_Hybrid.pdf",
+      filename: "BenLalor_Resume_Hybrid.pdf",
+    },
+  ],
 } as const;

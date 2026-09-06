@@ -186,13 +186,18 @@ https://github.com/BenLalor/LTS_ComplianceSoftware_VanillaJavascript
 
 | File | Role |
 | --- | --- |
-| `public/resume/BenLalor_Resume.pdf` | Oct 2024 PDF, downloadable from the site |
+| `public/resume/BenLalor_Resume.pdf` | Current published PDF (Oct 2024) until Ben picks a winner |
 | `/resume` | HTML / print draft, slightly more current |
-| `content/resumes/software-forward.md` | Draft only |
-| `content/resumes/energy-codes-forward.md` | Draft only |
-| `content/resumes/hybrid.md` | Draft only |
+| `content/resumes/software-forward.md` | Source draft (markdown) |
+| `content/resumes/energy-codes-forward.md` | Source draft (markdown) |
+| `content/resumes/hybrid.md` | Source draft (markdown) |
+| `public/resume/drafts/BenLalor_Resume_Software.pdf` | Polished PDF of the software-forward draft |
+| `public/resume/drafts/BenLalor_Resume_EnergyCodes.pdf` | Polished PDF of the energy-codes-forward draft |
+| `public/resume/drafts/BenLalor_Resume_Hybrid.pdf` | Polished PDF of the hybrid draft |
 
-The markdown variants are **drafts for Ben**, not published as additional public pages.
+Regenerate PDFs with `npm run resume:pdf` (Playwright HTML → letter PDF). All three are labeled **drafts for review** on `/resume` and in the homepage contact section. **Ben will choose** which variant, if any, replaces the Oct 2024 published PDF.
+
+The energy-codes PDF omits the “7-figure contracts” line (not soft-confirmed for external use). EnergySoft is Energy Analyst on all three. Québec / eSim and private CalBEM watch URLs are omitted. C# / .NET is marked as newer than the Oct 2024 PDF where it appears.
 
 ## Intentional non-claims
 

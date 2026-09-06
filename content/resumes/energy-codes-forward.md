@@ -23,7 +23,7 @@ Building energy codes specialist and full-stack developer with about a decade in
 - Cultivate relationships with CEC, local government, IOUs, and CPUC Codes & Standards participants.
 - Support local governments on Reach Code adoption.
 - CASE subject-matter expert for the 2022, 2025, and 2028 Title 24, Part 6 cycles.
-- Mentor junior staff; manage workload and contract budget; develop statements of work. *(PDF also states “win 7 figure contracts” — confirm before using that phrasing externally.)*
+- Mentor junior staff; manage workload and contract budget; develop statements of work. *(Oct 2024 PDF also states “win 7 figure contracts.” Omitted from the polished energy-codes PDF until confirmed.)*
 
 ### EnergySoft — Energy Analyst (2015–2019); Intern (2014–2015)
 

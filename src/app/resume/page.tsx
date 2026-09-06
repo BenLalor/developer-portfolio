@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { PrintButton } from "@/components/print-button";
+import { ResumeDrafts } from "@/components/resume-drafts";
 import { education, experience, skillGroups, talks } from "@/lib/content";
 import { site } from "@/lib/site";
 
@@ -18,13 +19,15 @@ export default function ResumePage() {
         </Link>
         <div className="flex gap-3">
           <a href={site.resumePdf} download="BenLalor_Resume.pdf" className="underline-offset-4 hover:underline">
-            October 2024 PDF
+            {site.resumePdfLabel}
           </a>
           <PrintButton />
         </div>
       </div>
 
-      <header className="border-b border-line pb-6">
+      <ResumeDrafts />
+
+      <header className="mt-10 border-b border-line pb-6">
         <p className="font-mono text-xs tracking-[0.2em] text-accent uppercase">Draft HTML résumé</p>
         <h1 className="font-display mt-2 text-5xl tracking-tight">{site.name}</h1>
         <p className="mt-3 text-lg text-muted">

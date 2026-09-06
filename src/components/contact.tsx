@@ -1,4 +1,5 @@
 import { site } from "@/lib/site";
+import { ResumeDrafts } from "./resume-drafts";
 import { SectionHeading } from "./section-heading";
 
 const contacts = [
@@ -50,6 +51,7 @@ export function Contact() {
             HTML résumé / print
           </a>
         </div>
+        <ResumeDrafts />
       </div>
     </section>
   );

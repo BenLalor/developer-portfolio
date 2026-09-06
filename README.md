@@ -36,22 +36,23 @@ Open [http://localhost:3000](http://localhost:3000).
 Useful routes:
 
 - `/` — homepage
-- `/resume` — HTML résumé with a print stylesheet (`Print / save PDF` or the browser print dialog)
+- `/resume` — HTML résumé with a print stylesheet, plus links to three **draft** PDF variants
 
 Other scripts:
 
 ```bash
-npm run build   # production build, local only
-npm run start   # serve the local build
+npm run build        # production build, local only
+npm run start        # serve the local build
 npm run lint
+npm run resume:pdf   # regenerate draft résumé PDFs (Playwright)
 ```
 
 ## What’s in this draft
 
 1. Homepage: hero, experience, selected work, talks & publications, education / skills, contact
 2. `CONTENT.md` — sources, verified links, and open questions
-3. Resume drafts (markdown only) under `content/resumes/`
-4. October 2024 PDF at `public/resume/BenLalor_Resume.pdf`
+3. Resume drafts under `content/resumes/` and polished PDFs under `public/resume/drafts/`
+4. October 2024 PDF at `public/resume/BenLalor_Resume.pdf` (still the published download until Ben chooses)
 5. Printable HTML résumé at `/resume`
 
 Wattly is described as **prepared / not publicly released**. The site says **Wattly** only — never “Wattly Solutions” — and uses “independent creator,” not founder branding.
