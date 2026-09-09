@@ -1,0 +1,175 @@
+@font-face {
+  font-family: "Noto Sans";
+  src: url("/usr/share/fonts/truetype/noto/NotoSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("/usr/share/fonts/truetype/noto/NotoSans-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("/usr/share/fonts/truetype/noto/NotoSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Serif";
+  src: url("/usr/share/fonts/truetype/noto/NotoSerif-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Serif";
+  src: url("/usr/share/fonts/truetype/noto/NotoSerif-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #1c211d;
+  font-family: "Noto Sans", "Liberation Sans", Arial, Helvetica, sans-serif;
+  font-size: 9.85pt;
+  line-height: 1.28;
+}
+
+.page {
+  width: 7.3in;
+}
+
+.banner {
+  color: #5b635c;
+  font-size: 7.8pt;
+  letter-spacing: 0.03em;
+  margin: 0 0 7px;
+  text-transform: uppercase;
+}
+
+header {
+  border-bottom: 1.5px solid #1c211d;
+  padding-bottom: 6px;
+}
+
+h1 {
+  font-family: "Noto Serif", "Liberation Serif", Georgia, "Times New Roman", serif;
+  font-size: 21pt;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  line-height: 1.08;
+  margin: 0;
+}
+
+.role {
+  font-size: 10.4pt;
+  margin: 5px 0 0;
+}
+
+.contact {
+  color: #2b322e;
+  font-size: 9pt;
+  margin: 6px 0 0;
+}
+
+.contact a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h2 {
+  border-bottom: 0.75px solid #b7b1a4;
+  font-size: 10pt;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin: 9px 0 4px;
+  padding-bottom: 2px;
+}
+
+h3 {
+  font-size: 10.4pt;
+  font-weight: 700;
+  margin: 0;
+}
+
+p {
+  margin: 0 0 6px;
+}
+
+.job {
+  margin: 0 0 6px;
+}
+
+.job-head {
+  align-items: baseline;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+.dates {
+  color: #3d4540;
+  flex: 0 0 auto;
+  font-size: 9.2pt;
+  white-space: nowrap;
+}
+
+.titles {
+  color: #3d4540;
+  font-size: 9.4pt;
+  margin: 1px 0 3px;
+}
+
+ul {
+  margin: 0;
+  padding-left: 1.05em;
+}
+
+li {
+  margin: 0 0 1.5px;
+}
+
+.subgroup {
+  font-weight: 700;
+  margin: 4px 0 2px;
+}
+
+.skills p {
+  margin: 0 0 3px;
+}
+
+.label {
+  font-weight: 700;
+}
+
+body.compact {
+  font-size: 9.55pt;
+  line-height: 1.25;
+}
+
+body.compact h2 {
+  margin: 7px 0 3px;
+}
+
+body.compact .job {
+  margin: 0 0 5px;
+}
+
+body.compact p {
+  margin: 0 0 4px;
+}
