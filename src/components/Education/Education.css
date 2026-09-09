@@ -34,7 +34,8 @@
     align-items:flex-start;
     justify-content: flex-start;
     width: 90%;
-    height: 140px;
+    min-height: 140px;
+    height: auto;
     padding: 1.5rem;
     border-radius: 20px;
     margin-bottom: 1.5rem;
@@ -76,6 +77,14 @@
     font-family: var(--primaryFont);
     font-size: 1.15rem;
     font-weight: 600;
+}
+
+.education-notes {
+    font-family: var(--primaryFont);
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 140%;
+    margin-top: 0.4rem;
 }
 
 .education-image {
@@ -130,7 +139,8 @@
     .education-card {
         padding: 1rem;
         margin-bottom: 1.5rem;
-        height: 130px;
+        height: auto;
+        min-height: 130px;
     }
     .educard-img {
         border-radius: 50%;

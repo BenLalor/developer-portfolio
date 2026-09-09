@@ -19,7 +19,9 @@ import {
 } from "react-icons/fa";
 import { AiOutlineSend, AiOutlineCheckCircle } from "react-icons/ai";
 import { FiPhone, FiAtSign } from "react-icons/fi";
-import { HiOutlineLocationMarker } from "react-icons/hi";
+import { HiOutlineLocationMarker, HiOutlineGlobeAlt, HiDocumentText } from "react-icons/hi";
+import { Link } from "react-router-dom";
+import { resumeData } from "../../data/resumeData";
 
 import { ThemeContext } from "../../contexts/ThemeContext";
 
@@ -297,7 +299,7 @@ function Contacts() {
               </div>
               <p style={{ color: theme.tertiary }}>{contactsData.email}</p>
             </a>
-            <a href={`tel:${contactsData.phone}`} className="personal-details">
+            <a href={contactsData.phoneHref} className="personal-details">
               <div className={classes.detailsIcon}>
                 <FiPhone />
               </div>
@@ -309,6 +311,25 @@ function Contacts() {
               </div>
               <p style={{ color: theme.tertiary }}>{contactsData.address}</p>
             </div>
+            <a
+              href={contactsData.website}
+              target="_blank"
+              rel="noreferrer"
+              className="personal-details"
+            >
+              <div className={classes.detailsIcon}>
+                <HiOutlineGlobeAlt />
+              </div>
+              <p style={{ color: theme.tertiary }}>benlalor.com</p>
+            </a>
+            <Link to="/resume" className="personal-details">
+              <div className={classes.detailsIcon}>
+                <HiDocumentText />
+              </div>
+              <p style={{ color: theme.tertiary }}>
+                {resumeData.published.label} + draft PDFs
+              </p>
+            </Link>
 
             <div className="socialmedia-icons">
               {socialsData.twitter && (

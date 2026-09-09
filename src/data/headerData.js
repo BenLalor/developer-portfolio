@@ -1,11 +1,11 @@
-import BenLalor_Resume from "../assets/pdf/BenLalor_Resume.pdf";
 import profilePic from "../assets/png/profilepic.jpeg";
 
 export const headerData = {
   name: "Ben Lalor",
-  title: "Full Stack Developer",
+  title: "Energy-code specialist & full-stack builder",
   desciption:
-    "My name's Ben Lalor. I'm a full stack developer based in Denver, CO with a background in building energy efficiency and building energy codes. I have a passion for automation and creating clean, intuitive, and dynamic user experiences.",
+    "I lead software that digitizes California Title 24, Part 6 compliance — and I build the tools around it. About a decade in building energy codes, now spent mostly on product, data, and the rulesets underneath.",
   image: profilePic,
-  resumePdf: BenLalor_Resume,
+  resumePdf: "/resume/BenLalor_Resume.pdf",
+  location: "Denver / Arvada, CO",
 };
