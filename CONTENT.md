@@ -197,7 +197,9 @@ https://github.com/BenLalor/LTS_ComplianceSoftware_VanillaJavascript
 
 Regenerate PDFs with `npm run resume:pdf` (Playwright HTML → letter PDF). All three are labeled **drafts for review** on `/resume` and in the homepage contact section. **Ben will choose** which variant, if any, replaces the Oct 2024 published PDF.
 
-The energy-codes PDF omits the “7-figure contracts” line (not soft-confirmed for external use). EnergySoft is Energy Analyst on all three. Québec / eSim and private CalBEM watch URLs are omitted. C# / .NET is marked as newer than the Oct 2024 PDF where it appears.
+CVs unslopped 2026-09-09. The three markdown sources, PDF HTML templates, generated drafts, and `/resume` body copy were rewritten to drop AI tells. Homepage `src/lib/content.ts` is unchanged so Option A site copy stays put.
+
+The energy-codes PDF omits the “7-figure contracts” line (not soft-confirmed for external use). EnergySoft is Energy Analyst on all three. Québec / eSim and private CalBEM watch URLs are omitted. C# / .NET is marked as newer than the Oct 2024 PDF where it appears. EnergySoft title note stays in CONTENT.md and italic markdown footers, not in the PDF body.
 
 ## Intentional non-claims
 
