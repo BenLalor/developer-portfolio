@@ -7,9 +7,11 @@ This branch keeps the live **CRA + Material UI** fork: army-green theme, Poppins
 ## Local run
 
 ```bash
-npm install
+npm install --legacy-peer-deps
 npm start
 ```
+
+Modern npm needs `--legacy-peer-deps` because `react-reveal` still declares a React 15/16 peer while this app uses React 17 (same as the live site). Yarn also works: `yarn install && yarn start`.
 
 Production build check:
 
