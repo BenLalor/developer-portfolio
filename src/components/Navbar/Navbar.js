@@ -3,9 +3,8 @@ import { NavHashLink as NavLink } from "react-router-hash-link";
 import Fade from "react-reveal/Fade";
 import { IoMenuSharp, IoHomeSharp } from "react-icons/io5";
 import { HiDocumentText } from "react-icons/hi";
-import { BsFillGearFill } from "react-icons/bs";
 import { MdPhone } from "react-icons/md";
-import { FaUser, FaFolderOpen } from "react-icons/fa";
+import { FaUser, FaFolderOpen, FaMicrophoneAlt } from "react-icons/fa";
 import { makeStyles } from "@material-ui/core/styles";
 import Drawer from "@material-ui/core/Drawer";
 import CloseIcon from "@material-ui/icons/Close";
@@ -79,12 +78,12 @@ function Navbar() {
       },
     },
     drawerItem: {
-      margin: "2rem auto",
+      margin: "1.15rem auto",
       borderRadius: "78.8418px",
       background: theme.secondary,
       color: theme.primary,
       width: "85%",
-      height: "60px",
+      height: "52px",
       display: "flex",
       alignItems: "center",
       justifyContent: "space-evenly",
@@ -100,22 +99,23 @@ function Navbar() {
       [t.breakpoints.down("sm")]: {
         width: "100%",
         padding: "0 25px",
-        height: "55px",
+        height: "48px",
+        margin: "0.85rem auto",
       },
     },
     drawerLinks: {
       fontFamily: "var(--primaryFont)",
       width: "50%",
-      fontSize: "1.3rem",
+      fontSize: "1.15rem",
       fontWeight: 600,
       [t.breakpoints.down("sm")]: {
-        fontSize: "1.125rem",
+        fontSize: "1rem",
       },
     },
     drawerIcon: {
-      fontSize: "1.6rem",
+      fontSize: "1.45rem",
       [t.breakpoints.down("sm")]: {
-        fontSize: "1.385rem",
+        fontSize: "1.25rem",
       },
     },
   }));
@@ -129,6 +129,15 @@ function Navbar() {
       return name;
     }
   };
+
+  const links = [
+    { to: "/", label: "Home", icon: IoHomeSharp },
+    { to: "/#experience", label: "Experience", icon: FaUser },
+    { to: "/#projects", label: "Work", icon: FaFolderOpen },
+    { to: "/#talks", label: "Talks", icon: FaMicrophoneAlt },
+    { to: "/resume", label: "Resume", icon: HiDocumentText },
+    { to: "/#contacts", label: "Contact", icon: MdPhone },
+  ];
 
   return (
     <div className="navbar">
@@ -175,69 +184,19 @@ function Navbar() {
 
         <div onClick={handleDrawerClose}>
           <div className="navLink--container">
-            <Fade left>
-              <NavLink to="/" smooth={true} spy="true" duration={2000}>
-                <div className={classes.drawerItem}>
-                  <IoHomeSharp className={classes.drawerIcon} />
-                  <span className={classes.drawerLinks}>Home</span>
-                </div>
-              </NavLink>
-            </Fade>
-
-            {/* 
-                        <Fade left>
-                            <NavLink
-                                to='/#about'
-                                smooth={true}
-                                spy='true'
-                                duration={2000}
-                            >
-                                <div className={classes.drawerItem}>
-                                    <FaUser className={classes.drawerIcon} />
-                                    <span className={classes.drawerLinks}>
-                                        About
-                                    </span>
-                                </div>
-                            </NavLink>
-                        </Fade>
-                    */}
-            <Fade left>
-              <NavLink to="/#resume" smooth={true} spy="true" duration={2000}>
-                <div className={classes.drawerItem}>
-                  <HiDocumentText className={classes.drawerIcon} />
-                  <span className={classes.drawerLinks}>Resume</span>
-                </div>
-              </NavLink>
-            </Fade>
-
-            <Fade left>
-              <NavLink to="/#services" smooth={true} spy="true" duration={2000}>
-                <div className={classes.drawerItem}>
-                  <BsFillGearFill className={classes.drawerIcon} />
-                  <span className={classes.drawerLinks}>Services</span>
-                </div>
-              </NavLink>
-            </Fade>
-
-            {/*
-                                    <Fade left>
-                                        <NavLink to="/#blog" smooth={true} spy="true" duration={2000}>
-                                            <div className={classes.drawerItem}>
-                                                <FaFolderOpen className={classes.drawerIcon} />
-                                                <span className={classes.drawerLinks}>Blog</span>
-                                            </div>
-                                        </NavLink>
-                                    </Fade>
-                */}
-
-            <Fade left>
-              <NavLink to="/#contacts" smooth={true} spy="true" duration={2000}>
-                <div className={classes.drawerItem}>
-                  <MdPhone className={classes.drawerIcon} />
-                  <span className={classes.drawerLinks}>Contact</span>
-                </div>
-              </NavLink>
-            </Fade>
+            {links.map((link) => {
+              const Icon = link.icon;
+              return (
+                <Fade left key={link.label}>
+                  <NavLink to={link.to} smooth={true} spy="true" duration={2000}>
+                    <div className={classes.drawerItem}>
+                      <Icon className={classes.drawerIcon} />
+                      <span className={classes.drawerLinks}>{link.label}</span>
+                    </div>
+                  </NavLink>
+                </Fade>
+              );
+            })}
           </div>
         </div>
       </Drawer>

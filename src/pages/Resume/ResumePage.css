@@ -1,0 +1,107 @@
+.resumePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+.resumePage-header {
+    height: 28vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.resumePage-header > h1 {
+    font-size: 4rem;
+    font-family: var(--primaryFont);
+}
+
+.resumePage-container {
+    padding: 2.5rem 2rem 4rem;
+    width: min(880px, 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.resume-downloads,
+.resume-section {
+    border-radius: 20px;
+    padding: 1.5rem 1.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.resume-downloads h2,
+.resume-section h2 {
+    font-family: var(--primaryFont);
+    font-size: 1.4rem;
+    margin-bottom: 0.75rem;
+}
+
+.resume-downloads p,
+.resume-section p,
+.resume-section li {
+    font-family: var(--primaryFont);
+    font-size: 0.98rem;
+    line-height: 150%;
+}
+
+.resume-download-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+    margin-top: 0.75rem;
+}
+
+.resume-download-list a {
+    font-family: var(--primaryFont);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.resume-section h3 {
+    font-family: var(--primaryFont);
+    font-size: 1.15rem;
+    margin: 1rem 0 0.25rem;
+}
+
+.resume-section .resume-meta {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.resume-section .resume-subhead {
+    font-family: var(--primaryFont);
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin: 0.85rem 0 0.35rem;
+}
+
+.resume-section ul {
+    padding-left: 1.2rem;
+}
+
+.resume-section li {
+    margin-bottom: 0.35rem;
+}
+
+@media screen and (max-width: 800px) {
+    .resumePage-header {
+        height: 22vh;
+    }
+    .resumePage-header > h1 {
+        font-size: 2.8rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .resumePage-header > h1 {
+        font-size: 2.3rem;
+    }
+}

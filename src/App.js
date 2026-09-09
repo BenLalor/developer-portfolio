@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 
 import { ThemeContext } from "./contexts/ThemeContext";
-import { Main, BlogPage, ProjectPage } from "./pages";
+import { Main, BlogPage, ProjectPage, ResumePage } from "./pages";
 import { BackToTop } from "./components";
 import ScrollToTop from "./utils/ScrollToTop";
 
@@ -34,6 +34,7 @@ function App() {
           <Route path="/" exact component={Main} />
           <Route path="/blog" exact component={BlogPage} />
           <Route path="/projects" exact component={ProjectPage} />
+          <Route path="/resume" exact component={ResumePage} />
 
           <Redirect to="/" />
         </Switch>
