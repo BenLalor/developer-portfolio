@@ -2,7 +2,7 @@
 
 Draft compiled **2026-09-06** for the personal-site redesign. Prefer this file when a fact is shaky. Do not invent employers, degrees, dates, or publications to fill gaps.
 
-**Option B note:** This file is the shared fact source from Option A. Option B (`cursor/portfolio-classic-content-e9b4`) ports the same content into the classic CRA + Material UI site. See [`OPTION-B.md`](./OPTION-B.md) for what was ported. Open questions below are unchanged.
+**Option B note:** This file is the shared fact source from Option A. Option B (`cursor/portfolio-classic-content-e9b4`) ports the same content into the classic CRA + Material UI site. See [`OPTION-B.md`](./OPTION-B.md) for what was ported. Open questions below are unchanged. Résumé drafts were refreshed from Option A commit `8ff5f81` (unslop pass).
 
 ## Contact (personal only)
 
@@ -197,9 +197,11 @@ https://github.com/BenLalor/LTS_ComplianceSoftware_VanillaJavascript
 | `public/resume/drafts/BenLalor_Resume_EnergyCodes.pdf` | Polished PDF of the energy-codes-forward draft |
 | `public/resume/drafts/BenLalor_Resume_Hybrid.pdf` | Polished PDF of the hybrid draft |
 
-Regenerate PDFs with `npm run resume:pdf` (Playwright HTML → letter PDF). All three are labeled **drafts for review** on `/resume` and in the homepage contact section. **Ben will choose** which variant, if any, replaces the Oct 2024 published PDF.
+CVs unslopped 2026-09-09 on Option A (`8ff5f81`) and ported here. The three markdown sources, PDF HTML templates (`scripts/resume-pdf/`), generated draft PDFs, and `/resume` body copy were rewritten to drop AI tells. Option B homepage copy stays on the earlier Option A site wording (hero, experience, talks).
 
-The energy-codes PDF omits the “7-figure contracts” line (not soft-confirmed for external use). EnergySoft is Energy Analyst on all three. Québec / eSim and private CalBEM watch URLs are omitted. C# / .NET is marked as newer than the Oct 2024 PDF where it appears.
+Draft PDFs were copied from Option A rather than regenerated on this CRA branch. The HTML templates are kept as source. All three are labeled **drafts for review** on `/resume` and in the homepage contact section. **Ben will choose** which variant, if any, replaces the Oct 2024 published PDF.
+
+The energy-codes PDF omits the “7-figure contracts” line (not soft-confirmed for external use). EnergySoft is Energy Analyst on all three. Québec / eSim and private CalBEM watch URLs are omitted. C# / .NET is marked as newer than the Oct 2024 PDF where it appears. EnergySoft title note stays in CONTENT.md and italic markdown footers, not in the PDF body.
 
 ## Intentional non-claims
 

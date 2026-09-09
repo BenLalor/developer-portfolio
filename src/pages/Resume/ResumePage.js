@@ -7,10 +7,6 @@ import { AiOutlineHome } from "react-icons/ai";
 import { ThemeContext } from "../../contexts/ThemeContext";
 import { headerData } from "../../data/headerData";
 import { resumeData } from "../../data/resumeData";
-import { experienceData } from "../../data/experienceData";
-import { talksData } from "../../data/talksData";
-import { educationData } from "../../data/educationData";
-import { skillNote } from "../../data/skillsData";
 import { contactsData } from "../../data/contactsData";
 
 import "./ResumePage.css";
@@ -68,7 +64,8 @@ function ResumePage() {
           <h2 style={{ color: theme.primary }}>Downloads</h2>
           <p style={{ color: theme.tertiary80 }}>
             The October 2024 PDF remains the current published résumé until a
-            draft is chosen. The three variants below are for review only.
+            draft is chosen. The three variants below are unslopped drafts for
+            review only.
           </p>
           <div className="resume-download-list">
             <a
@@ -94,76 +91,151 @@ function ResumePage() {
         <section className={`resume-section ${classes.panel}`}>
           <h2 style={{ color: theme.primary }}>{headerData.name}</h2>
           <p className="resume-meta" style={{ color: theme.tertiary80 }}>
-            Full-stack developer and building energy codes specialist ·{" "}
             {headerData.location}
           </p>
           <p className="resume-meta" style={{ color: theme.tertiary80 }}>
-            {contactsData.email} · {contactsData.phone} · benlalor.com
+            {contactsData.email} · {contactsData.phone} · benlalor.com · GitHub
+            / LinkedIn
           </p>
           <p style={{ color: theme.tertiary80 }}>{resumeData.summary}</p>
         </section>
 
         <section className={`resume-section ${classes.panel}`}>
           <h2 style={{ color: theme.primary }}>Experience</h2>
-          {experienceData.map((job) => (
-            <article key={job.company}>
-              <h3 style={{ color: theme.tertiary }}>{job.company}</h3>
-              <p className="resume-meta" style={{ color: theme.tertiary80 }}>
-                {job.roles
-                  .map((role) => `${role.title} (${role.dates})`)
-                  .join(" · ")}
-              </p>
-              <ul>
-                {job.bullets.map((bullet) => (
-                  <li key={bullet} style={{ color: theme.tertiary80 }}>
-                    {bullet}
-                  </li>
-                ))}
-              </ul>
-            </article>
-          ))}
+
+          <article>
+            <h3 style={{ color: theme.tertiary }}>NORESCO</h3>
+            <p className="resume-meta" style={{ color: theme.tertiary80 }}>
+              2019 to present
+            </p>
+            <p className="resume-meta" style={{ color: theme.tertiary80 }}>
+              Senior Energy Analyst, 2024 to present. Energy Analyst III, 2021
+              to 2024. Energy Analyst II, 2019 to 2021.
+            </p>
+            <p className="resume-subhead" style={{ color: theme.primary }}>
+              Software
+            </p>
+            <ul>
+              <li style={{ color: theme.tertiary80 }}>
+                Lead a development team on a full-stack web app for Title 24
+                Part 6 prescriptive compliance.
+              </li>
+              <li style={{ color: theme.tertiary80 }}>
+                SQL database of public and private CA compliance-software data.
+              </li>
+              <li style={{ color: theme.tertiary80 }}>
+                XSD ruleset shared across compliance tools.
+              </li>
+              <li style={{ color: theme.tertiary80 }}>
+                Secure API for large-scale building data.
+              </li>
+            </ul>
+            <p className="resume-subhead" style={{ color: theme.primary }}>
+              Codes and stakeholders
+            </p>
+            <ul>
+              <li style={{ color: theme.tertiary80 }}>
+                CEC, local government, IOUs, CPUC Codes and Standards.
+              </li>
+              <li style={{ color: theme.tertiary80 }}>
+                Reach Code support for local governments.
+              </li>
+              <li style={{ color: theme.tertiary80 }}>
+                CASE SME for the 2022, 2025, and 2028 cycles.
+              </li>
+            </ul>
+          </article>
+
+          <article>
+            <h3 style={{ color: theme.tertiary }}>EnergySoft</h3>
+            <p className="resume-meta" style={{ color: theme.tertiary80 }}>
+              2014 to 2019
+            </p>
+            <p className="resume-meta" style={{ color: theme.tertiary80 }}>
+              Energy Analyst, 2015 to 2019. Intern, 2014 to 2015.
+            </p>
+            <ul>
+              <li style={{ color: theme.tertiary80 }}>
+                Apple Park and other nonresidential energy models.
+              </li>
+              <li style={{ color: theme.tertiary80 }}>
+                EnergyPro LCCA. Consultant management.
+              </li>
+            </ul>
+          </article>
         </section>
 
         <section className={`resume-section ${classes.panel}`}>
           <h2 style={{ color: theme.primary }}>Selected work</h2>
           <ul>
             <li style={{ color: theme.tertiary80 }}>
-              Wattly — independent Title 24 BEM / compliance software for
-              California. Prepared; not publicly released.
+              Wattly. Independent creator. Title 24 BEM and compliance,
+              performance and prescriptive. Prepared, not public.
             </li>
             <li style={{ color: theme.tertiary80 }}>
-              Title 24 Part 6 prescriptive compliance web application (NORESCO)
-              and shared XSD / compliance-data infrastructure.
+              Prescriptive compliance web app. Lead, NORESCO.
+            </li>
+            <li style={{ color: theme.tertiary80 }}>
+              Compliance data and XSD infrastructure. Developer and maintainer,
+              NORESCO.
+            </li>
+            <li style={{ color: theme.tertiary80 }}>
+              NRCC-LTS form tool. Personal. Public source, no longer hosted.
             </li>
           </ul>
         </section>
 
         <section className={`resume-section ${classes.panel}`}>
-          <h2 style={{ color: theme.primary }}>Talks & publications</h2>
+          <h2 style={{ color: theme.primary }}>Talks and publications</h2>
           <ul>
-            {talksData.map((talk) => (
-              <li key={talk.title} style={{ color: theme.tertiary80 }}>
-                {talk.year} · {talk.venue}
-                {talk.upcoming ? " (Upcoming)" : ""} — {talk.title}
-              </li>
-            ))}
+            <li style={{ color: theme.tertiary80 }}>
+              CABEC 2026, upcoming. AI for Energy Consultants.
+            </li>
+            <li style={{ color: theme.tertiary80 }}>
+              CalBEM 2025. Capturing the Value of BEM Data for Policy and
+              Programs, Power Talk.
+            </li>
+            <li style={{ color: theme.tertiary80 }}>
+              ACEEE Summer Study 2024. 21st Century Compliance: Data-Driven
+              Solutions for Decarbonization and Equity, Blair and Marver.
+            </li>
+            <li style={{ color: theme.tertiary80 }}>
+              CABEC 2024. California Energy Code compliance software framework.
+            </li>
+            <li style={{ color: theme.tertiary80 }}>
+              CABEC 2022. What is new with the 2022 Nonresidential energy code.
+            </li>
+            <li style={{ color: theme.tertiary80 }}>
+              CEC briefing. Commissioner McAllister technical staff on the
+              NORESCO compliance database. No recording.
+            </li>
           </ul>
         </section>
 
         <section className={`resume-section ${classes.panel}`}>
           <h2 style={{ color: theme.primary }}>Education</h2>
           <ul>
-            {educationData.map((item) => (
-              <li key={item.institution} style={{ color: theme.tertiary80 }}>
-                {item.course} — {item.institution}
-              </li>
-            ))}
+            <li style={{ color: theme.tertiary80 }}>
+              B.S. Computer Science — Colorado State University
+            </li>
+            <li style={{ color: theme.tertiary80 }}>
+              B.S. Energy Management and Design — Sonoma State University
+            </li>
           </ul>
         </section>
 
         <section className={`resume-section ${classes.panel}`}>
           <h2 style={{ color: theme.primary }}>Skills</h2>
-          <p style={{ color: theme.tertiary80 }}>{skillNote}</p>
+          <ul>
+            <li style={{ color: theme.tertiary80 }}>
+              Current: C#, .NET, React, TypeScript, Python, SQL, Azure, APIs,
+              XSD, Title 24, BEM.
+            </li>
+            <li style={{ color: theme.tertiary80 }}>
+              As of the Oct 2024 PDF: HTML, CSS, JS, React, Bootstrap, Python,
+              Flask, Django, MySQL, SQLAlchemy, Azure, GitHub, Git, NPM.
+            </li>
+          </ul>
         </section>
       </div>
     </div>

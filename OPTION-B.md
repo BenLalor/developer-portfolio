@@ -32,7 +32,7 @@ Node may need the already-configured `NODE_OPTIONS=--openssl-legacy-provider` fl
 | Talks & publications | First-class section with verified links only |
 | Education + skills | Same degrees (no invented years); skills marquee refreshed with a PDF-vs-current note |
 | Contact | Personal gmail, LinkedIn, GitHub, benlalor.com, 831-359-5762 only. ZIP and Stack Overflow dropped |
-| Resume | Oct 2024 PDF remains “current published”; three draft PDFs on `/resume`; in-app résumé page using classic header/card chrome |
+| Resume | Oct 2024 PDF remains “current published”; three **unslopped** draft PDFs (ported from Option A `8ff5f81`) on `/resume`; in-app résumé page uses the unslopped hybrid wording and classic header/card chrome. PDF HTML sources live in `scripts/resume-pdf/` |
 
 ## Guardrails kept
 

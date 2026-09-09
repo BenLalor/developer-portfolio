@@ -74,6 +74,15 @@
     margin-bottom: 0.5rem;
 }
 
+.resume-section .resume-subhead {
+    font-family: var(--primaryFont);
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin: 0.85rem 0 0.35rem;
+}
+
 .resume-section ul {
     padding-left: 1.2rem;
 }

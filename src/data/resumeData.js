@@ -22,5 +22,5 @@ export const resumeData = {
     },
   ],
   summary:
-    "Full-stack developer with about a decade in building energy codes and compliance software. Leads Title 24, Part 6 prescriptive compliance tooling at NORESCO. Independent creator of Wattly, Title 24 BEM / compliance software for California, currently prepared and not publicly released.",
+    "I build software for California energy codes. At NORESCO I lead full-stack Title 24, Part 6 prescriptive compliance tooling, the XSD ruleset under public and private tools, and the data systems CASE, CEC, and CPUC use. Independently I create Wattly, Title 24 BEM and compliance software that is prepared and not yet public.",
 };
