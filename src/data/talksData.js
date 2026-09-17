@@ -5,7 +5,7 @@ export const talksData = [
     venue: "CABEC Conference",
     title: "AI for Energy Consultants",
     detail:
-      "Upcoming. Conference is September 15–17, 2026 in Petaluma. Session page not published separately — this listing is the talk title only.",
+      "Upcoming. Conference is September 15 to 17, 2026 in Petaluma. Session page not published separately.",
     upcoming: true,
     links: [
       { label: "CABEC 2026 conference", href: "https://cabec.org/conference2026/" },
@@ -17,7 +17,7 @@ export const talksData = [
     venue: "CalBEM",
     title: "Capturing the Value of BEM Data for Policy and Programs",
     detail:
-      "Power Talk. A recording exists on the CalBEM YouTube channel; public release is pending, so no watch URL is listed here.",
+      "Power Talk. A recording exists on the CalBEM YouTube channel. Public release is pending, so no watch URL is listed here.",
     upcoming: false,
     links: [
       { label: "2025 agenda", href: "https://calbem.ibpsa.us/2025-agenda/" },
@@ -32,9 +32,13 @@ export const talksData = [
     title:
       "21st Century Compliance: Data-Driven Solutions for Decarbonization and Equity",
     detail:
-      "Paper and presentation. Coauthors Sally Blair and Jill Marver. Link the proceedings page; a stable public PDF was not available as of this draft.",
+      "Paper and presentation. Coauthors Sally Blair and Jill Marver.",
     upcoming: false,
     links: [
+      {
+        label: "Paper PDF",
+        href: "https://www.aceee.org/wp-content/uploads/ssb2024/20240722160733015_13f529d5-956d-445c-83ce-41d7d3459cd3.pdf",
+      },
       {
         label: "2024 proceedings",
         href: "https://www.aceee.org/summer-study-2024-proceedings",
@@ -46,16 +50,23 @@ export const talksData = [
     year: "2024",
     venue: "CABEC Conference",
     title: "California Energy Code compliance software framework",
-    detail: "Conference presentation. No separate public session URL found.",
+    detail: "Conference presentation.",
     upcoming: false,
-    links: [{ label: "CABEC", href: "https://cabec.org/" }],
+    links: [
+      { label: "CABEC", href: "https://cabec.org/" },
+      {
+        label: "2024 conference program",
+        href: "https://cabec.org/wp-content/uploads/2024/09/2024_cabec_conf_program-2.pdf",
+      },
+    ],
   },
   {
     id: 5,
     year: "2022",
     venue: "CABEC Conference",
-    title: "What’s new with the 2022 Nonresidential energy code",
-    detail: "Conference presentation. No separate public session URL found.",
+    title: "What's new with the 2022 Nonresidential energy code",
+    detail:
+      "Conference presentation. A dedicated 2022 conference page is no longer online.",
     upcoming: false,
     links: [{ label: "CABEC", href: "https://cabec.org/" }],
   },
@@ -65,6 +76,6 @@ export const engagementsData = [
   {
     title: "CEC Commissioner technical briefing",
     detail:
-      "Led a technical briefing for Commissioner Andrew McAllister and senior technical staff on the compliance database built by NORESCO’s Codes and Standards team. No public recording.",
+      "Led a technical briefing for Commissioner Andrew McAllister and senior technical staff on the compliance database built by NORESCO's Codes and Standards team. No public recording.",
   },
 ];

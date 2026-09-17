@@ -26,10 +26,9 @@ function Talks() {
   return (
     <div className="talks" id="talks" style={{ backgroundColor: theme.secondary }}>
       <div className="talks-header">
-        <h1 style={{ color: theme.primary }}>Talks & publications</h1>
+        <h1 style={{ color: theme.primary }}>Talks and publications</h1>
         <p style={{ color: theme.tertiary80 }}>
-          Verified public links only. Québec / eSim appearances are omitted until
-          confirmed. Private CalBEM watch URLs and 404 PDFs are not listed.
+          Papers, conference talks, and briefings.
         </p>
       </div>
       <div className="talks-cards">

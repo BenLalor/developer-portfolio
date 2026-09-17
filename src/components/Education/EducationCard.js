@@ -23,7 +23,9 @@ function EducationCard({ id, institution, course, startYear, endYear, notes }) {
   const classes = useStyles();
 
   const yearLabel =
-    startYear || endYear ? `${startYear}${endYear ? `—${endYear}` : ""}` : "";
+    startYear || endYear
+      ? `${startYear}${endYear ? ` to ${endYear}` : ""}`
+      : "";
 
   return (
     <Fade bottom>

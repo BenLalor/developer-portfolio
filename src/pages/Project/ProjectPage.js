@@ -17,7 +17,7 @@ function ProjectPage() {
     const { theme } = useContext(ThemeContext);
 
     const filteredArticles = projectsData.filter((project) => {
-        const content = project.projectName + project.projectDesc + project.tags
+        const content = project.projectName + project.projectDesc
         return content.toLowerCase().includes(search.toLowerCase())
     })
 
@@ -91,10 +91,8 @@ function ProjectPage() {
                                 id={project.id}
                                 name={project.projectName}
                                 desc={project.projectDesc}
-                                tags={project.tags}
-                                code={project.code}
-                                demo={project.demo}
-                                image={project.image} 
+                                image={project.image}
+                                kicker={project.kicker} 
                             />
                         ))}
                    </Grid>

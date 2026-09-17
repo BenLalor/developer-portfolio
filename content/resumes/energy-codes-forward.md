@@ -6,14 +6,14 @@ https://www.benlalor.com · https://github.com/BenLalor · https://www.linkedin.
 
 ## Summary
 
-Building energy codes specialist and full-stack developer with about a decade in California Title 24, Part 6. I lead work on prescriptive compliance software, shared compliance-tool infrastructure, and CASE / Reach Code support. Independent creator of Wattly, Title 24 BEM and compliance software in preparation.
+Building energy codes specialist and full-stack developer with 12 years in California Title 24 Part 6. I lead work on prescriptive compliance software, compliance data and schema infrastructure, and CASE / Reach Code support. Independent creator of Wattly, Title 24 BEM and compliance software releasing in private beta.
 
 ## Experience
 
 NORESCO. Senior Energy Analyst, 2024 to present. Energy Analyst III, 2021 to 2024. Energy Analyst II, 2019 to 2021.
 
-- Lead the team building California Title 24, Part 6 prescriptive compliance software, a full-stack web app used to show code requirements.
-- Build a SQL database of public and private California compliance-software data so CASE teams, the CEC, and the CPUC can work from filed data.
+- Lead a team of developers and subject matter experts who built an application used to demonstrate California Title 24 Part 6 prescriptive compliance, digitizing hand-filled paper forms and fragmented tools.
+- Built and maintain a data pipeline and schema used to inform future policy decisions for building energy codes.
 - Develop and maintain the XSD ruleset used as shared infrastructure for public and private compliance tools in the state.
 - Deliver a secure API for large-scale building data.
 - Work with CEC, local government, IOUs, and CPUC Codes and Standards participants.
@@ -38,7 +38,7 @@ EnergySoft. Energy Analyst, 2015 to 2019. Intern, 2014 to 2015.
 
 ## Independent software
 
-Wattly. Independent creator. Title 24 BEM and compliance software for California, performance and prescriptive. Prepared, not publicly released.
+Wattly. Independent creator. Title 24 BEM and compliance software for California, performance and prescriptive. Releasing in private beta.
 
 ## Education
 
@@ -47,8 +47,7 @@ Wattly. Independent creator. Title 24 BEM and compliance software for California
 
 ## Skills
 
-Domain: Title 24 Part 6 and Part 11, BEM, prescriptive and performance compliance, CASE, Reach Codes, EnergyPro.  
-Software: HTML, CSS, JavaScript, React, Bootstrap, Python, Flask, Django, MySQL, SQLAlchemy, Azure, Git, GitHub, NPM.  
-Later independent work on Wattly: C#, .NET, TypeScript.
+Domain: Title 24 Part 6 and Part 11, BEM, prescriptive and performance compliance, CASE, Reach Codes, EnergyPro, OpenStudio, EnergyPlus, CBECC, Wattly.  
+Software: JavaScript, React, Python, C#, .NET, MySQL, PostgreSQL, Azure, AWS, Git, Django.
 
-*Draft only. The Oct 2024 PDF also says "win 7 figure contracts." That line is omitted here until confirmed. EnergySoft title is Energy Analyst per CONTENT.md, not Senior Nonresidential. C#, .NET, and TypeScript are Wattly work, not Oct 2024 PDF skills. Québec / eSim omitted.*
+*Draft only. The Oct 2024 PDF also says "win 7 figure contracts." That line is omitted here until confirmed. EnergySoft title is Energy Analyst per CONTENT.md, not Senior Nonresidential.*

@@ -1,106 +1,34 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import { FaPlay, FaCode } from "react-icons/fa";
 import Fade from "react-reveal/Fade";
 
 import placeholder from "../../../assets/png/placeholder.png";
 import "./SingleProject.css";
 
-function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
-  const useStyles = makeStyles((t) => ({
-    iconBtn: {
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "center",
-      width: 40,
-      height: 40,
-      borderRadius: 50,
-      border: `2px solid ${theme.tertiary}`,
-      color: theme.tertiary,
-      transition: "all 0.2s",
-      "&:hover": {
-        backgroundColor: theme.secondary,
-        color: theme.primary,
-        transform: "scale(1.1)",
-        border: `2px solid ${theme.secondary}`,
-      },
-    },
-    icon: {
-      fontSize: "1.1rem",
-      transition: "all 0.2s",
-      "&:hover": {},
-    },
-  }));
-
-  const classes = useStyles();
+function SingleProject({ id, name, desc, image, theme, kicker }) {
   const headingId = name.replace(/\s+/g, "-").toLowerCase();
 
   return (
     <Fade bottom>
-      <div
+      <article
         key={id}
         className="singleProject"
         style={{ backgroundColor: theme.primary400 }}
       >
         <div className="projectContent">
+          {kicker && (
+            <p className="project-kicker" style={{ color: theme.secondary }}>
+              {kicker}
+            </p>
+          )}
           <h2 id={headingId} style={{ color: theme.tertiary }}>
             {name}
           </h2>
-          <img src={image ? image : placeholder} alt={name} />
-          <div className="project--showcaseBtn">
-            {demo && (
-              <a
-                href={demo}
-                target="_blank"
-                rel="noreferrer"
-                className={classes.iconBtn}
-                aria-labelledby={`${headingId} ${headingId}-demo`}
-              >
-                <FaPlay
-                  id={`${headingId}-demo`}
-                  className={classes.icon}
-                  aria-label="Demo"
-                />
-              </a>
-            )}
-            {code && (
-              <a
-                href={code}
-                target="_blank"
-                rel="noreferrer"
-                className={classes.iconBtn}
-                aria-labelledby={`${headingId} ${headingId}-code`}
-              >
-                <FaCode
-                  id={`${headingId}-code`}
-                  className={classes.icon}
-                  aria-label="Code"
-                />
-              </a>
-            )}
-          </div>
+          <img src={image ? image : placeholder} alt="" />
+          <p className="project--desc" style={{ color: theme.tertiary }}>
+            {desc}
+          </p>
         </div>
-        <p
-          className="project--desc"
-          style={{
-            background: theme.secondary,
-            color: theme.tertiary,
-          }}
-        >
-          {desc}
-        </p>
-        <div
-          className="project--lang"
-          style={{
-            background: theme.secondary,
-            color: theme.tertiary80,
-          }}
-        >
-          {tags.map((tag, tagId) => (
-            <span key={tagId}>{tag}</span>
-          ))}
-        </div>
-      </div>
+      </article>
     </Fade>
   );
 }

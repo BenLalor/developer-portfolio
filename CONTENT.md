@@ -82,7 +82,7 @@ No graduation years on the old site or in the brief. **Not invented.** Course no
 - Title: “21st Century Compliance: Data-Driven Solutions for Decarbonization and Equity”
 - Coauthors: Sally Blair, Jill Marver (brief)
 - Paper + presentation (PDF)
-- **Link on site:** https://www.aceee.org/summer-study-2024-proceedings
+- **Link on site:** paper PDF at https://www.aceee.org/wp-content/uploads/ssb2024/20240722160733015_13f529d5-956d-445c-83ce-41d7d3459cd3.pdf plus the proceedings page https://www.aceee.org/summer-study-2024-proceedings
 - Recording: none found
 - A historical direct PDF path was 404 on 2026-09-06 (`…/ssb24/assets/attachments/20240722160733015_13f529d5-956d-445c-83ce-41d7d3459cd3.pdf`). Search snippets still mention that filename; do not put a 404 PDF on the public site.
 
@@ -148,7 +148,7 @@ Used on the site:
 - Name: **Wattly** only — never “Wattly Solutions”
 - Credit: “Independent creator of Wattly” / “Creator of Wattly”
 - Domain: Title 24 BEM / compliance software for California (performance + prescriptive)
-- Status: prepared / pre-public-release; not available for download
+- Status: releasing in private beta
 - Tone borrowed from wattlysolutions.com (“building energy modeling” made simpler, consultant workflows) **without** the company name, waitlist, or a public feature matrix
 - Do **not** claim CEC approval or public availability
 
@@ -164,11 +164,10 @@ October 2024 PDF / old site baseline:
 - Back: Python / Flask / Django / MySQL / SQLAlchemy
 - DevOps: Azure / GitHub / Git / NPM
 
-Site skills are a **careful refresh** that also reflects current independent Wattly / .NET work:
+Site skills:
 
-- C# / .NET, React, TypeScript, Python, SQL, Azure, Title 24 / BEM, HTML / CSS, Git / GitHub, APIs, XSD / rulesets
-
-C# / .NET is **not** presented as an Oct 2024 résumé line. Resume markdown variants that include it say so.
+- JavaScript, React, Python, C#, MySQL, PostgreSQL, Azure, AWS, Git, Django
+- Energy modeling: OpenStudio, EnergyPlus, CBECC, EnergyPro, Wattly, Title 24, BEM
 
 The PDF skills block did not extract as text (likely icon/image layout). The list above follows the 2026-09-06 brief.
 
@@ -177,6 +176,7 @@ The PDF skills block did not extract as text (likely icon/image layout). The lis
 - Title typo “Porfolio”
 - Generic Services grid (web design, QA, DevOps, etc.)
 - Calculator and Stock Visualizer as featured work
+- Energy Code form completion tool / NRCC-LTS
 - Placeholder testimonials / achievements / blog from the upstream template
 - EnergySoft title “Senior Nonresidential Energy Analyst” (see discrepancy above)
 - SheetDB contact form (the old `sheetAPI` was already empty)

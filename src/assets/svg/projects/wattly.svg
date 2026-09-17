@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- Homestead 2.0 icon — same mark as the desktop app. -->
+  <defs>
+    <linearGradient id="houseA2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#14533F"/>
+      <stop offset="1" stop-color="#0A2A21"/>
+    </linearGradient>
+  </defs>
+  <polygon points="128,26 222,90 222,218 34,218 34,90"
+           fill="url(#houseA2)" stroke="url(#houseA2)"
+           stroke-width="24" stroke-linejoin="round"/>
+  <polyline points="76,106 101,172 128,116 155,172 180,106"
+            fill="none" stroke="#34D399" stroke-width="22"
+            stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="180" cy="106" r="15" fill="#A3E635"/>
+</svg>

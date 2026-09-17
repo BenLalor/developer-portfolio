@@ -42,7 +42,7 @@ function ExperienceCard({
         </div>
         <div className="experience-details">
           <h6 style={{ color: theme.primary }}>
-            {startYear}—{endYear}
+            {startYear} to {endYear}
           </h6>
           <h4 style={{ color: theme.tertiary }}>{company}</h4>
           {roles && roles.length > 0 ? (

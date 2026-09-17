@@ -1,5 +1,4 @@
-import LTSImage from "../assets/svg/projects/LTSImage.svg";
-import ProjectOne from "../assets/svg/projects/one.svg";
+import wattlyLogo from "../assets/svg/projects/wattly.svg";
 import ProjectSix from "../assets/svg/projects/six.svg";
 import ProjectFour from "../assets/svg/projects/four.svg";
 
@@ -8,20 +7,19 @@ export const projectsData = [
     id: 1,
     projectName: "Wattly",
     projectDesc:
-      "Independent creator. Title 24 BEM and compliance software for California (performance + prescriptive). Prepared — not publicly released. Not a product launch and not listed as Wattly Solutions.",
-    tags: ["Title 24", "BEM", "C# / .NET", "React"],
+      "Title 24 BEM and compliance software for California, covering performance and prescriptive work. Releasing in private beta.",
+    tags: [],
     code: "",
     demo: "",
-    image: ProjectOne,
+    image: wattlyLogo,
     kicker: "Independent creator",
-    status: "Prepared — not publicly released",
   },
   {
     id: 2,
-    projectName: "Title 24 prescriptive compliance tooling",
+    projectName: "Prescriptive compliance software",
     projectDesc:
-      "Lead the team building the full-stack web application used to demonstrate California Title 24, Part 6 prescriptive compliance — digitizing a process that used to live in paper forms and fragmented tools.",
-    tags: ["Title 24 Part 6", "Full-stack", "Prescriptive"],
+      "Lead a team of developers and subject matter experts who built an application used to demonstrate California Title 24 Part 6 prescriptive compliance. It digitized a process that used to be hand-filled paper forms and fragmented tools.",
+    tags: [],
     code: "",
     demo: "",
     image: ProjectSix,
@@ -29,24 +27,13 @@ export const projectsData = [
   },
   {
     id: 3,
-    projectName: "Compliance data & ruleset infrastructure",
+    projectName: "Compliance data and schema",
     projectDesc:
-      "SQL systems that collect public and private California compliance-software data, plus the XSD ruleset underneath public and private tools — and a secure API for large-scale building data.",
-    tags: ["SQL", "XSD", "API", "CEC / CASE / CPUC"],
+      "Built and maintain a data pipeline and schema used to inform future policy decisions for building energy codes.",
+    tags: [],
     code: "",
     demo: "",
     image: ProjectFour,
     kicker: "NORESCO",
-  },
-  {
-    id: 4,
-    projectName: "Energy Code form completion tool",
-    projectDesc:
-      "A public full-stack experiment for completing NRCC-LTS energy code forms: register, save, revisit, and check requirements. Previously hosted on Azure; source remains on GitHub.",
-    tags: ["Python", "Flask", "JavaScript", "MySQL"],
-    code: "https://github.com/BenLalor/LTS_ComplianceSoftware_VanillaJavascript",
-    demo: "https://github.com/BenLalor/LTS_ComplianceSoftware_VanillaJavascript",
-    image: LTSImage,
-    kicker: "Personal project",
   },
 ];

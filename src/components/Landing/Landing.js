@@ -138,9 +138,7 @@ function Landing() {
           <div className="lcr--content" style={{ color: theme.tertiary }}>
             <h6>{headerData.location}</h6>
             <h1>{headerData.name}</h1>
-            <p>
-              <strong>{headerData.title}.</strong> {headerData.desciption}
-            </p>
+            <p>{headerData.desciption}</p>
 
             <div className="lcr-buttonContainer">
               {headerData.resumePdf && (

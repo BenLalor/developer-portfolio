@@ -6,7 +6,7 @@ https://www.benlalor.com · https://github.com/BenLalor · https://www.linkedin.
 
 ## Summary
 
-Full-stack developer with about a decade building California energy-code software. I lead a team that ships Title 24, Part 6 compliance tooling: web apps, SQL, XSD rulesets, and APIs. On my own I build Wattly, prepared and not publicly released.
+Full-stack developer with 12 years building California energy-code software. I lead a team of developers and subject matter experts on Title 24 Part 6 prescriptive compliance software, plus a data pipeline and schema used to inform future energy-code policy. On my own I build Wattly, releasing in private beta.
 
 Looking for software roles where energy-code domain knowledge is useful on the job.
 
@@ -14,8 +14,8 @@ Looking for software roles where energy-code domain knowledge is useful on the j
 
 NORESCO. Senior Energy Analyst, 2024 to present. Energy Analyst III, 2021 to 2024. Energy Analyst II, 2019 to 2021.
 
-- Lead developers on a full-stack web app for Title 24, Part 6 prescriptive compliance.
-- Design and maintain a SQL database of public and private California compliance-software data for CASE, CEC, and CPUC staff.
+- Lead a team of developers and subject matter experts who built an application used to demonstrate California Title 24 Part 6 prescriptive compliance, digitizing hand-filled paper forms and fragmented tools.
+- Design and maintain a data pipeline and schema used to inform future policy decisions for building energy codes.
 - Develop and maintain the XSD ruleset used by public and private CA compliance tools.
 - Build a secure API for large-scale building-data transfer.
 - Work with CEC, local governments, IOUs, and CPUC Codes and Standards. Support Reach Codes. CASE SME for the 2022, 2025, and 2028 cycles.
@@ -27,9 +27,9 @@ EnergySoft. Energy Analyst, 2015 to 2019. Intern, 2014 to 2015.
 
 ## Selected work
 
-- Wattly. Independent creator. Title 24 BEM and compliance software for California, performance and prescriptive. Prepared, not publicly launched.
-- Title 24 prescriptive compliance platform. Lead at NORESCO. Full-stack product for Part 6 prescriptive requirements.
-- NRCC-LTS form tool. Personal full-stack experiment with Flask, JavaScript, MySQL, and Azure. https://github.com/BenLalor/LTS_ComplianceSoftware_VanillaJavascript
+- Wattly. Independent creator. Title 24 BEM and compliance software for California, performance and prescriptive. Releasing in private beta.
+- Title 24 prescriptive compliance software. Lead at NORESCO.
+- Compliance data and schema. Developer and maintainer, NORESCO.
 
 ## Talks and publications
 
@@ -46,6 +46,6 @@ EnergySoft. Energy Analyst, 2015 to 2019. Intern, 2014 to 2015.
 
 ## Skills
 
-C#, .NET, React, TypeScript, Python, SQL, Azure, HTML, CSS, Git, GitHub, APIs, XSD, rulesets, Title 24 Part 6, BEM.
+JavaScript, React, Python, C#, .NET, MySQL, PostgreSQL, Azure, AWS, Git, Django, OpenStudio, EnergyPlus, CBECC, EnergyPro, Wattly, Title 24 Part 6, BEM.
 
-*Draft only. C#, .NET, and TypeScript are current Wattly work and are newer than the Oct 2024 published PDF. EnergySoft title is Energy Analyst per CONTENT.md, not Senior Nonresidential. Québec / eSim omitted.*
+*Draft only. EnergySoft title is Energy Analyst per CONTENT.md, not Senior Nonresidential.*

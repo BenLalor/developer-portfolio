@@ -64,8 +64,7 @@ function ResumePage() {
           <h2 style={{ color: theme.primary }}>Downloads</h2>
           <p style={{ color: theme.tertiary80 }}>
             The October 2024 PDF remains the current published résumé until a
-            draft is chosen. The three variants below are unslopped drafts for
-            review only.
+            draft is chosen. The three variants below are drafts for review.
           </p>
           <div className="resume-download-list">
             <a
@@ -82,7 +81,7 @@ function ResumePage() {
                 download={draft.filename}
                 style={{ color: theme.primary }}
               >
-                Draft — {draft.label}
+                Draft, {draft.label}
               </a>
             ))}
           </div>
@@ -117,11 +116,14 @@ function ResumePage() {
             </p>
             <ul>
               <li style={{ color: theme.tertiary80 }}>
-                Lead a development team on a full-stack web app for Title 24
-                Part 6 prescriptive compliance.
+                Lead a team of developers and subject matter experts who built
+                an application used to demonstrate California Title 24 Part 6
+                prescriptive compliance, digitizing hand-filled paper forms and
+                fragmented tools.
               </li>
               <li style={{ color: theme.tertiary80 }}>
-                SQL database of public and private CA compliance-software data.
+                Built and maintain a data pipeline and schema used to inform
+                future policy decisions for building energy codes.
               </li>
               <li style={{ color: theme.tertiary80 }}>
                 XSD ruleset shared across compliance tools.
@@ -170,17 +172,13 @@ function ResumePage() {
           <ul>
             <li style={{ color: theme.tertiary80 }}>
               Wattly. Independent creator. Title 24 BEM and compliance,
-              performance and prescriptive. Prepared, not public.
+              performance and prescriptive. Releasing in private beta.
             </li>
             <li style={{ color: theme.tertiary80 }}>
-              Prescriptive compliance web app. Lead, NORESCO.
+              Prescriptive compliance software. Lead, NORESCO.
             </li>
             <li style={{ color: theme.tertiary80 }}>
-              Compliance data and XSD infrastructure. Developer and maintainer,
-              NORESCO.
-            </li>
-            <li style={{ color: theme.tertiary80 }}>
-              NRCC-LTS form tool. Personal. Public source, no longer hosted.
+              Compliance data and schema. Developer and maintainer, NORESCO.
             </li>
           </ul>
         </section>
@@ -216,10 +214,10 @@ function ResumePage() {
           <h2 style={{ color: theme.primary }}>Education</h2>
           <ul>
             <li style={{ color: theme.tertiary80 }}>
-              B.S. Computer Science — Colorado State University
+              B.S. Computer Science, Colorado State University
             </li>
             <li style={{ color: theme.tertiary80 }}>
-              B.S. Energy Management and Design — Sonoma State University
+              B.S. Energy Management and Design, Sonoma State University
             </li>
           </ul>
         </section>
@@ -228,12 +226,12 @@ function ResumePage() {
           <h2 style={{ color: theme.primary }}>Skills</h2>
           <ul>
             <li style={{ color: theme.tertiary80 }}>
-              Current: C#, .NET, React, TypeScript, Python, SQL, Azure, APIs,
-              XSD, Title 24, BEM.
+              Software: JavaScript, React, Python, C#, .NET, MySQL, PostgreSQL,
+              Azure, AWS, Git, Django.
             </li>
             <li style={{ color: theme.tertiary80 }}>
-              As of the Oct 2024 PDF: HTML, CSS, JS, React, Bootstrap, Python,
-              Flask, Django, MySQL, SQLAlchemy, Azure, GitHub, Git, NPM.
+              Energy modeling: OpenStudio, EnergyPlus, CBECC, EnergyPro, Wattly,
+              Title 24, BEM.
             </li>
           </ul>
         </section>

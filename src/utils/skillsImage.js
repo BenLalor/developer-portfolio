@@ -74,6 +74,11 @@ import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
+import wattly from '../assets/svg/skills/wattly.svg'
+import openstudio from '../assets/svg/skills/openstudio.svg'
+import energyplus from '../assets/svg/skills/energyplus.png'
+import cbecc from '../assets/svg/skills/cbecc.svg'
+import energypro from '../assets/svg/skills/energypro.svg'
 
 
 export const skillsImage = (skill) => {
@@ -227,6 +232,16 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'wattly':
+            return wattly;
+        case 'openstudio':
+            return openstudio;
+        case 'energyplus':
+            return energyplus;
+        case 'cbecc':
+            return cbecc;
+        case 'energypro':
+            return energypro;
         default:
             break;
     }
