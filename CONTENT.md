@@ -42,12 +42,13 @@ Used on the site:
 Bullets used on the site are paraphrased from that PDF:
 
 - Lead an interdisciplinary team of software developers and subject matter experts to build **Virtual Compliance Assistant**, a Title 24 Part 6 **form completion tool**
-- Data pipeline and associated schemas used to inform future policy decisions for building energy codes
+- Maintain a data pipeline in AWS used to inform future policy decisions for building energy codes, including a secure API for large-scale building data
 - Maintain the XSD ruleset used as central infrastructure for CA compliance tools
-- Secure API for large-scale building data
-- Tools, training, and resources for Title 24 stakeholders; Title 24 Part 6 and WSEC; CEC, local government, IOUs, CPUC C&S; Reach Codes; CASE SME for 2022 / 2025 / 2028
+- Tools, training, and resources for Title 24 stakeholders on **Energy Code Ace**
+- Support development of future versions of energy codes and standards such as California's Energy Code (Title 24 Part 6) and WSEC. Subject matter expert for Codes and Standards Enhancement (CASE), Title 24 Part 6 code development, 2022 / 2025 / 2028
+- CEC, local government, IOUs, CPUC C&S; Reach Codes
 
-The PDF also includes leadership language (mentor junior staff, manage workload and contract budget, develop statements of work, “win 7 figure contracts”). The 7-figure claim is on the PDF but is **not** used on the public homepage. It appears only in the resume draft variants, marked as PDF-sourced.
+The PDF also includes leadership language (mentor junior staff, manage workload and contract budget, develop statements of work, “win 7 figure contracts”). The 7-figure claim is on the PDF but is **not** used on the public homepage. Resume drafts now say manage a team of direct reports, including career development, workload, and technical review of deliverables. Statements of work / 7-figure language stay omitted until confirmed.
 
 The PDF summary calls Virtual Compliance Assistant “the most widely used tool in the state of California for prescriptive Energy Code compliance.” The ACEEE 2024 paper describes VCA in similar terms. The site names the product and describes Ben as **leading an interdisciplinary team to build it**. It does not independently certify market-share numbers. Do **not** link VCA from the personal site.
 
@@ -198,7 +199,7 @@ https://github.com/BenLalor/LTS_ComplianceSoftware_VanillaJavascript
 | `public/resume/drafts/BenLalor_Resume_EnergyCodes.pdf` | Polished PDF of the energy-codes-forward draft |
 | `public/resume/drafts/BenLalor_Resume_Hybrid.pdf` | Polished PDF of the hybrid draft |
 
-Draft résumés were aligned to current site language (2026-09-18): tools/training/resources and WSEC, Wattly as Title 24 BEM and Energy Code compliance software awaiting CEC certification for the 2025 Energy Code plus private beta, VCA as a named Title 24 Part 6 form completion tool, and associated schemas. Copy is more formal and more detailed than the homepage cards. Markdown sources, PDF HTML templates (`scripts/resume-pdf/`), generated draft PDFs (`npm run resume:pdf`), and `/resume` body copy stay in sync. Homepage Download CV still points at the Oct 2024 published PDF until a draft is chosen.
+Draft résumés were aligned to current site language (2026-09-18): tools/training/resources on Energy Code Ace, future versions of energy codes, California's Energy Code (Title 24 Part 6) and WSEC, CASE spelled out, Wattly as Title 24 BEM and Energy Code compliance software awaiting CEC certification for the 2025 Energy Code plus private beta, VCA as a named Title 24 Part 6 form completion tool, AWS data pipeline plus secure API for large-scale building data, AI in software development and knowledge tools. Copy is more formal and more detailed than the homepage cards. Markdown sources, PDF HTML templates (`scripts/resume-pdf/`), generated draft PDFs (`npm run resume:pdf`), and `/resume` body copy stay in sync. Homepage Download CV still points at the Oct 2024 published PDF until a draft is chosen.
 
 All three are labeled **drafts for review** on `/resume` and in the homepage contact section. **Ben will choose** which variant, if any, replaces the Oct 2024 published PDF.
 

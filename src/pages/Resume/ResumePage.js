@@ -119,20 +119,17 @@ function ResumePage() {
               <li style={{ color: theme.tertiary80 }}>
                 Lead an interdisciplinary team of software developers and
                 subject matter experts to build Virtual Compliance Assistant, a
-                Title 24 Part 6 form completion tool. It digitized a process
-                that used to be hand-filled paper forms and fragmented tools.
+                Title 24 Part 6 form completion tool.
               </li>
               <li style={{ color: theme.tertiary80 }}>
-                Built and maintain a data pipeline and associated schemas used
-                to inform future policy decisions for building energy codes.
+                Maintain a data pipeline in AWS used to inform future policy
+                decisions for building energy codes, including a secure API for
+                large-scale building data.
               </li>
               <li style={{ color: theme.tertiary80 }}>
                 Develop and maintain the XSD ruleset used as shared
                 infrastructure across public and private California compliance
                 tools.
-              </li>
-              <li style={{ color: theme.tertiary80 }}>
-                Build a secure API for large-scale building data.
               </li>
             </ul>
             <p className="resume-subhead" style={{ color: theme.primary }}>
@@ -140,21 +137,25 @@ function ResumePage() {
             </p>
             <ul>
               <li style={{ color: theme.tertiary80 }}>
-                Tools, training, and resources for Title 24 stakeholders.
+                Build tools, training, and resources for Title 24 stakeholders
+                on Energy Code Ace.
               </li>
               <li style={{ color: theme.tertiary80 }}>
-                Support for energy codes and standards such as Title 24 Part 6
-                and the Washington State Energy Code (WSEC).
+                Support development of future versions of energy codes and
+                standards such as California's Energy Code (Title 24 Part 6) and
+                the Washington State Energy Code (WSEC) as a Codes and Standards
+                Enhancement (CASE) subject matter expert for Title 24 Part 6
+                code development in the 2022, 2025, and 2028 cycles.
               </li>
               <li style={{ color: theme.tertiary80 }}>
-                California Energy Commission (CEC), local governments,
-                investor-owned utilities (IOUs), and CPUC Codes and Standards.
+                Work with the California Energy Commission (CEC), local
+                governments, IOUs, and CPUC Codes and Standards. Support Reach
+                Code adoption for local governments.
               </li>
               <li style={{ color: theme.tertiary80 }}>
-                Reach Code support for local governments.
-              </li>
-              <li style={{ color: theme.tertiary80 }}>
-                CASE subject-matter expert for the 2022, 2025, and 2028 cycles.
+                Manage a team of direct reports, including career development
+                and growth. Delegate workload and review deliverables for
+                technical accuracy.
               </li>
             </ul>
           </article>
@@ -169,11 +170,12 @@ function ResumePage() {
             </p>
             <ul>
               <li style={{ color: theme.tertiary80 }}>
-                Building energy models for nonresidential projects including
-                Apple Park.
+                Built building energy models for nonresidential projects
+                including Apple Park.
               </li>
               <li style={{ color: theme.tertiary80 }}>
-                EnergyPro life-cycle cost analysis. Consultant management.
+                Developed EnergyPro life-cycle cost analyses. Managed
+                consultants.
               </li>
             </ul>
           </article>
@@ -202,8 +204,8 @@ function ResumePage() {
             </li>
             <li style={{ color: theme.tertiary80 }}>
               Compliance data. Developer and maintainer, NORESCO. Data pipeline
-              and associated schemas used to inform future policy decisions for
-              building energy codes.
+              in AWS and a secure API for large-scale building data, used to
+              inform future policy decisions for building energy codes.
             </li>
           </ul>
         </section>
@@ -252,7 +254,7 @@ function ResumePage() {
           <ul>
             <li style={{ color: theme.tertiary80 }}>
               Software: JavaScript, React, Python, C#, .NET, MySQL, PostgreSQL,
-              Azure, AWS, Git, Django.
+              Azure, AWS, Git, Django, AI software development, knowledge tools.
             </li>
             <li style={{ color: theme.tertiary80 }}>
               Energy modeling: OpenStudio, EnergyPlus, CBECC, EnergyPro, Wattly,
