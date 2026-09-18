@@ -1,14 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 160" role="img" aria-label="Database">
-  <g stroke="#4B5320" stroke-width="4.5" stroke-linejoin="round">
-    <path d="M56 42 v76 c0 14 32 25 72 25 s72-11 72-25 V42" fill="#4B5320"/>
-    <ellipse cx="128" cy="118" rx="72" ry="25" fill="#3D451C"/>
-    <ellipse cx="128" cy="80" rx="72" ry="25" fill="#5A6427"/>
-    <ellipse cx="128" cy="42" rx="72" ry="25" fill="#E4E8D2"/>
+  <!-- Cream stacked cylinder so it reads on the army-green work card -->
+  <g stroke="#F3EFE0" stroke-width="4" stroke-linejoin="round">
+    <path d="M58 44 v70 c0 15.5 31 28 70 28 s70-12.5 70-28 V44" fill="#6B7433"/>
+    <ellipse cx="128" cy="114" rx="70" ry="26" fill="#8A9350"/>
+    <ellipse cx="128" cy="79" rx="70" ry="26" fill="#C9CBA8"/>
+    <ellipse cx="128" cy="44" rx="70" ry="26" fill="#F3EFE0"/>
   </g>
-  <g fill="#E4E8D2">
-    <rect x="96" y="68" width="26" height="5" rx="2"/>
-    <rect x="96" y="80" width="38" height="5" rx="2"/>
-    <rect x="96" y="106" width="26" height="5" rx="2"/>
-    <rect x="96" y="118" width="38" height="5" rx="2"/>
+  <g fill="#576422">
+    <rect x="98" y="68" width="24" height="5" rx="2"/>
+    <rect x="98" y="80" width="36" height="5" rx="2"/>
+    <rect x="98" y="103" width="24" height="5" rx="2"/>
+    <rect x="98" y="115" width="36" height="5" rx="2"/>
   </g>
 </svg>

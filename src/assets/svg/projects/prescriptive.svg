@@ -1,21 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 160" role="img" aria-label="Prescription symbol and stacked paper forms">
-  <g fill="#4B5320">
-    <path d="M20 22h40c20.6 0 36.5 13.6 36.5 33.6 0 14.6-8.4 26.4-22.2 31.2L96 138H73.2L54.6 92.2H44V138H20V22zm24 48.6h16.4c9.4 0 15.6-5.8 15.6-15 0-9.4-6.2-15.4-15.8-15.4H44v30.4z"/>
-    <path d="M58 94c2.8 2.8 5.6 5.6 8.4 8.4 12.6 12.6 25.2 25.2 37.8 37.8 2.4 2.4 1.2 6.8-2.2 7.6-2 .4-4-.4-5.4-2L58 107.6c-3-3-1.4-8.2 2.8-8.8 1.2-.2 2.2.2 3.2 1.2z"/>
-    <path d="M100 94c3-3 8.2-1.4 8.8 2.8.2 1.2-.2 2.4-1.2 3.4L70.4 137.4c-2.4 2.4-6.8 1.2-7.6-2.2-.4-2 .4-4.2 2-5.4L100 94z"/>
+  <!-- Cream Rx so it reads on the army-green work card -->
+  <g fill="#F3EFE0">
+    <path d="M18 20h42c21.4 0 38 14 38 34.8 0 15.2-8.8 27.4-23.2 32.4L99 140H75.4L56.2 92H42v48H18V20zm24 50.4h17.2c9.8 0 16.4-6 16.4-15.4 0-9.8-6.6-16-16.6-16H42v31.4z"/>
   </g>
-  <g stroke="#4B5320" stroke-linejoin="round">
-    <rect x="116" y="40" width="84" height="104" rx="3" fill="#EFE8D4" stroke-width="3" transform="rotate(-10 158 92)"/>
-    <rect x="124" y="34" width="84" height="104" rx="3" fill="#F4EFDE" stroke-width="3" transform="rotate(-6 166 86)"/>
-    <rect x="132" y="28" width="84" height="104" rx="3" fill="#F9F4E8" stroke-width="3" transform="rotate(-2.5 174 80)"/>
-    <rect x="140" y="22" width="84" height="108" rx="3" fill="#FFFDF6" stroke-width="3.2"/>
+  <g fill="none" stroke="#F3EFE0" stroke-width="11" stroke-linecap="round">
+    <path d="M56 94l42 44"/>
+    <path d="M98 94L56 138"/>
+  </g>
+  <g stroke="#F3EFE0" stroke-linejoin="round">
+    <rect x="116" y="40" width="86" height="106" rx="3" fill="#D9D2BC" stroke-width="2.5" transform="rotate(-10 159 93)"/>
+    <rect x="124" y="34" width="86" height="106" rx="3" fill="#E6DFC8" stroke-width="2.5" transform="rotate(-6 167 87)"/>
+    <rect x="132" y="28" width="86" height="106" rx="3" fill="#F0EAD6" stroke-width="2.5" transform="rotate(-2.5 175 81)"/>
+    <rect x="140" y="22" width="86" height="110" rx="3" fill="#FFFDF6" stroke-width="2.8"/>
   </g>
   <g fill="none" stroke="#4B5320" stroke-width="3" stroke-linecap="round">
-    <line x1="154" y1="42" x2="208" y2="42"/>
-    <line x1="154" y1="58" x2="210" y2="58"/>
-    <line x1="154" y1="72" x2="210" y2="72"/>
-    <line x1="154" y1="86" x2="202" y2="86"/>
-    <line x1="154" y1="100" x2="194" y2="100"/>
+    <line x1="154" y1="42" x2="210" y2="42"/>
+    <line x1="154" y1="58" x2="212" y2="58"/>
+    <line x1="154" y1="72" x2="212" y2="72"/>
+    <line x1="154" y1="86" x2="204" y2="86"/>
+    <line x1="154" y1="100" x2="196" y2="100"/>
     <line x1="154" y1="114" x2="186" y2="114"/>
   </g>
 </svg>
