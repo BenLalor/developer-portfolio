@@ -64,8 +64,8 @@ function ResumePage() {
         <section className={`resume-downloads ${classes.panel}`}>
           <h2 style={{ color: theme.primary }}>Downloads</h2>
           <p style={{ color: theme.tertiary80 }}>
-            The October 2024 PDF remains the current published résumé until a
-            draft is chosen. The three variants below are drafts for review.
+            The current résumé is below. Software-forward, energy-codes-forward,
+            and hybrid variants are also available.
           </p>
           <div className="resume-download-list">
             <a
@@ -122,7 +122,7 @@ function ResumePage() {
                 Title 24 Part 6 form completion tool.
               </li>
               <li style={{ color: theme.tertiary80 }}>
-                Develop and maintain a data pipeline in AWS used to inform future policy
+                Develop and maintain data pipelines in AWS used to inform future policy
                 decisions for building energy codes, including a secure API for
                 large-scale building data.
               </li>
@@ -155,10 +155,9 @@ function ResumePage() {
               </li>
               <li style={{ color: theme.tertiary80 }}>
                 Manage a team of direct reports, including career development
-                and growth. Delegate workload, review deliverables for technical
-                accuracy, and lead internal trainings on relevant subject
-                matters such as building science, software development, and AI
-                tooling.
+                and growth. Delegate workload, provide feedback, and lead
+                internal trainings on relevant subject matters such as building
+                science, software development, and AI tooling.
               </li>
             </ul>
           </article>
@@ -206,7 +205,7 @@ function ResumePage() {
               completion tool.
             </li>
             <li style={{ color: theme.tertiary80 }}>
-              Compliance data. Developer and maintainer, NORESCO. Data pipeline
+              Compliance data. Developer and maintainer, NORESCO. Data pipelines
               in AWS and a secure API for large-scale building data, used to
               inform future policy decisions for building energy codes.
             </li>

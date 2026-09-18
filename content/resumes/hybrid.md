@@ -16,7 +16,7 @@ Senior Energy Analyst, 2024 to present. Energy Analyst III, 2021 to 2024. Energy
 Software
 
 - Lead an interdisciplinary team of software developers and subject matter experts to build Virtual Compliance Assistant, a Title 24 Part 6 form completion tool.
-- Develop and maintain a data pipeline in AWS used to inform future policy decisions for building energy codes, including a secure API for large-scale building data.
+- Develop and maintain data pipelines in AWS used to inform future policy decisions for building energy codes, including a secure API for large-scale building data.
 - Develop and maintain the XSD ruleset used as shared infrastructure for Energy Code compliance tools in the state of California.
 
 Codes and stakeholders
@@ -24,7 +24,7 @@ Codes and stakeholders
 - Build tools, training, and resources for Title 24 stakeholders on Energy Code Ace.
 - Support development of future versions of energy codes and standards such as California's Energy Code (Title 24 Part 6) and the Washington State Energy Code (WSEC) as a Codes and Standards Enhancement (CASE) subject matter expert for Title 24 Part 6 code development in the 2022, 2025, and 2028 cycles.
 - Work with the California Energy Commission (CEC), local governments, IOUs, and CPUC Codes and Standards to support energy code compliance. Support Reach Code adoption for local governments.
-- Manage a team of direct reports, including career development and growth. Delegate workload, review deliverables for technical accuracy, and lead internal trainings on relevant subject matters such as building science, software development, and AI tooling.
+- Manage a team of direct reports, including career development and growth. Delegate workload, provide feedback, and lead internal trainings on relevant subject matters such as building science, software development, and AI tooling.
 
 EnergySoft, 2014 to 2019.  
 Energy Analyst, 2015 to 2019. Intern, 2014 to 2015.
@@ -36,7 +36,7 @@ Energy Analyst, 2015 to 2019. Intern, 2014 to 2015.
 
 - Wattly (https://wattlysolutions.com). Founder. Title 24 BEM and Energy Code compliance software for California, covering performance and prescriptive compliance. Currently awaiting CEC certification for the 2025 Energy Code. Releasing in private beta.
 - Virtual Compliance Assistant. Lead, NORESCO. Title 24 Part 6 form completion tool.
-- Compliance data. Developer and maintainer, NORESCO. Data pipeline in AWS and a secure API for large-scale building data, used to inform future policy decisions for building energy codes.
+- Compliance data. Developer and maintainer, NORESCO. Data pipelines in AWS and a secure API for large-scale building data, used to inform future policy decisions for building energy codes.
 
 ## Talks and publications
 

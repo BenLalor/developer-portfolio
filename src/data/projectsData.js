@@ -31,7 +31,7 @@ export const projectsData = [
     id: 3,
     projectName: "Compliance data",
     projectDesc:
-      "Develop and maintain a data pipeline in AWS used to inform future policy decisions for building energy codes, including a secure API for large-scale building data.",
+      "Develop and maintain data pipelines in AWS used to inform future policy decisions for building energy codes, including a secure API for large-scale building data.",
     tags: [],
     code: "",
     demo: "",

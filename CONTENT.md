@@ -42,7 +42,7 @@ Used on the site:
 Bullets used on the site are paraphrased from that PDF:
 
 - Lead an interdisciplinary team of software developers and subject matter experts to build **Virtual Compliance Assistant**, a Title 24 Part 6 **form completion tool**
-- Develop and maintain a data pipeline in AWS used to inform future policy decisions for building energy codes, including a secure API for large-scale building data
+- Develop and maintain data pipelines in AWS used to inform future policy decisions for building energy codes, including a secure API for large-scale building data
 - Maintain the XSD ruleset used as central infrastructure for Energy Code compliance tools in the state of California
 - Tools, training, and resources for Title 24 stakeholders on **Energy Code Ace**
 - Support development of future versions of energy codes and standards such as California's Energy Code (Title 24 Part 6) and WSEC. Subject matter expert for Codes and Standards Enhancement (CASE), Title 24 Part 6 code development, 2022 / 2025 / 2028
@@ -190,7 +190,7 @@ https://github.com/BenLalor/LTS_ComplianceSoftware_VanillaJavascript
 
 | File | Role |
 | --- | --- |
-| `public/resume/BenLalor_Resume.pdf` | Current published PDF (Oct 2024) until Ben picks a winner |
+| `public/resume/BenLalor_Resume.pdf` | Current published résumé (energy-codes-forward, posted 2026-09-18) |
 | `/resume` | HTML / print draft, slightly more current |
 | `content/resumes/software-forward.md` | Source draft (markdown) |
 | `content/resumes/energy-codes-forward.md` | Source draft (markdown) |
@@ -199,9 +199,9 @@ https://github.com/BenLalor/LTS_ComplianceSoftware_VanillaJavascript
 | `public/resume/drafts/BenLalor_Resume_EnergyCodes.pdf` | Polished PDF of the energy-codes-forward draft |
 | `public/resume/drafts/BenLalor_Resume_Hybrid.pdf` | Polished PDF of the hybrid draft |
 
-Draft résumés were aligned to current site language (2026-09-18): tools/training/resources on Energy Code Ace, future versions of energy codes, California's Energy Code (Title 24 Part 6) and WSEC, CASE spelled out, Wattly as Title 24 BEM and Energy Code compliance software awaiting CEC certification for the 2025 Energy Code plus private beta, VCA as a named Title 24 Part 6 form completion tool, AWS data pipeline plus secure API for large-scale building data, AI in software development and knowledge tools. Copy is more formal and more detailed than the homepage cards. Markdown sources, PDF HTML templates (`scripts/resume-pdf/`), generated draft PDFs (`npm run resume:pdf`), and `/resume` body copy stay in sync. Homepage Download CV still points at the Oct 2024 published PDF until a draft is chosen.
+Draft résumés were aligned to current site language (2026-09-18): tools/training/resources on Energy Code Ace, future versions of energy codes, California's Energy Code (Title 24 Part 6) and WSEC, CASE spelled out, Wattly as Title 24 BEM and Energy Code compliance software awaiting CEC certification for the 2025 Energy Code plus private beta, VCA as a named Title 24 Part 6 form completion tool, AWS data pipeline plus secure API for large-scale building data, AI in software development and knowledge tools. Copy is more formal and more detailed than the homepage cards. Markdown sources, PDF HTML templates (`scripts/resume-pdf/`), generated draft PDFs (`npm run resume:pdf`), and `/resume` body copy stay in sync. Homepage Download CV points at `public/resume/BenLalor_Resume.pdf`, now the energy-codes-forward résumé posted 2026-09-18. Variants remain on `/resume`.
 
-All three are labeled **drafts for review** on `/resume` and in the homepage contact section. **Ben will choose** which variant, if any, replaces the Oct 2024 published PDF.
+The energy-codes-forward résumé is the public Download CV. Software-forward and hybrid remain on `/resume` as variants.
 
 The energy-codes PDF omits the “7-figure contracts” line (not soft-confirmed for external use). EnergySoft is Energy Analyst on all three. Québec / eSim and private CalBEM watch URLs are omitted. C# / .NET is marked as newer than the Oct 2024 PDF where it appears. EnergySoft title note stays in CONTENT.md and italic markdown footers, not in the PDF body.
 

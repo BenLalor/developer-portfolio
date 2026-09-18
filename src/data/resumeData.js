@@ -1,6 +1,6 @@
 export const resumeData = {
   published: {
-    label: "Current published PDF (Oct 2024)",
+    label: "Current resume",
     href: "/resume/BenLalor_Resume.pdf",
     filename: "BenLalor_Resume.pdf",
   },

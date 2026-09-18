@@ -21,10 +21,7 @@ import { AiOutlineSend, AiOutlineCheckCircle } from "react-icons/ai";
 import { FiPhone, FiAtSign } from "react-icons/fi";
 import { HiOutlineLocationMarker, HiOutlineGlobeAlt, HiDocumentText } from "react-icons/hi";
 import { Link } from "react-router-dom";
-import { resumeData } from "../../data/resumeData";
-
 import { ThemeContext } from "../../contexts/ThemeContext";
-
 import { socialsData } from "../../data/socialsData";
 import { contactsData } from "../../data/contactsData";
 import "./Contacts.css";
@@ -327,7 +324,7 @@ function Contacts() {
                 <HiDocumentText />
               </div>
               <p style={{ color: theme.tertiary }}>
-                {resumeData.published.label} + draft PDFs
+                Resume
               </p>
             </Link>
 
