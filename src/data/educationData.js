@@ -1,4 +1,5 @@
 import coloradoStateLogo from "../assets/png/education/colorado-state.png";
+import sonomaStateLogo from "../assets/svg/education/sonoma-state.svg";
 
 export const educationData = [
   {
@@ -20,5 +21,7 @@ export const educationData = [
     endYear: "",
     notes:
       "Thermal energy management, renewable energy systems, electrical energy management.",
+    logo: sonomaStateLogo,
+    logoAlt: "Sonoma State University S",
   },
 ];
