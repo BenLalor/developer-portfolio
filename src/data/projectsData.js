@@ -9,7 +9,7 @@ export const projectsData = [
     id: 1,
     projectName: "Wattly",
     projectDesc:
-      "Title 24 BEM and compliance software for California, covering performance and prescriptive work. Releasing in private beta.",
+      "Title 24 BEM and compliance software for California, covering performance and prescriptive compliance. Releasing in private beta.",
     tags: [],
     code: "",
     demo: wattlyUrl,
@@ -20,7 +20,7 @@ export const projectsData = [
     id: 2,
     projectName: "Virtual Compliance Assistant",
     projectDesc:
-      "Lead an interdisciplinary team of software developers and subject matter experts to build Title 24 Part 6 prescriptive compliance software. It digitized a process that used to be hand-filled paper forms and fragmented tools.",
+      "Lead an interdisciplinary team of software developers and subject matter experts to build a Title 24 Part 6 form completion tool. It digitized a process that used to be hand-filled paper forms and fragmented tools.",
     tags: [],
     code: "",
     demo: "",
@@ -31,7 +31,7 @@ export const projectsData = [
     id: 3,
     projectName: "Compliance data",
     projectDesc:
-      "Built and maintain a data pipeline and schema used to inform future policy decisions for building energy codes.",
+      "Built and maintain a data pipeline and associated schemas used to inform future policy decisions for building energy codes.",
     tags: [],
     code: "",
     demo: "",

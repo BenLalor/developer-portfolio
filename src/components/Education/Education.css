@@ -67,13 +67,6 @@
     object-fit: contain;
 }
 
-.educard-img--logo-wide {
-    width: 148px;
-    height: 48px;
-    border-radius: 8px;
-    padding: 6px 10px;
-}
-
 .education-details{
     margin-left: 0.6rem;
 }
@@ -172,12 +165,6 @@
     .educard-img--logo > img {
         width: 100%;
         height: 100%;
-    }
-    .educard-img--logo-wide {
-        width: 124px;
-        height: 42px;
-        border-radius: 8px;
-        padding: 5px 8px;
     }
     .education-details > h6 {
         font-size: 0.85rem;

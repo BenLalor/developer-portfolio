@@ -17,7 +17,6 @@ function EducationCard({
   notes,
   logo,
   logoAlt,
-  logoWide,
 }) {
   const { theme } = useContext(ThemeContext);
 
@@ -41,9 +40,7 @@ function EducationCard({
     <Fade bottom>
       <div key={id} className={`education-card ${classes.educationCard}`}>
         <div
-          className={`educard-img${logo ? " educard-img--logo" : ""}${
-            logoWide ? " educard-img--logo-wide" : ""
-          }`}
+          className={`educard-img${logo ? " educard-img--logo" : ""}`}
           style={{ backgroundColor: logo ? "#ffffff" : theme.primary }}
         >
           <img
