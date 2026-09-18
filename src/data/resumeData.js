@@ -22,5 +22,5 @@ export const resumeData = {
     },
   ],
   summary:
-    "I'm a full stack developer with a background in building energy efficiency and building energy codes, based out of Denver, Colorado. I have 12 years of experience as a Title 24 Part 6 subject matter expert, building software tools for energy consultants, utilities, and state agencies. I am the founder of Wattly, Title 24 BEM and compliance software releasing in private beta.",
+    "Full-stack developer with a background in building energy efficiency and building energy codes, based in Denver, Colorado. I have 12 years of experience as a Title 24 Part 6 subject matter expert. I build tools, training, and resources for Title 24 stakeholders, and I support development of energy codes and standards such as Title 24 Part 6 and the Washington State Energy Code (WSEC). I am the founder of Wattly, Title 24 BEM and Energy Code compliance software covering performance and prescriptive compliance, currently awaiting CEC certification for the 2025 Energy Code.",
 };

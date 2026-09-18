@@ -1,29 +1,28 @@
 # Ben Lalor
 
-Denver / Arvada, CO  
+Denver, Colorado  
 lalor.benjamin@gmail.com · 831-359-5762  
 https://www.benlalor.com · https://github.com/BenLalor · https://www.linkedin.com/in/ben-lalor-1aab8997
 
 ## Summary
 
-Building energy codes specialist and full-stack developer with 12 years in California Title 24 Part 6. I lead work on prescriptive compliance software, compliance data and schema infrastructure, and CASE / Reach Code support. Founder of Wattly, Title 24 BEM and compliance software releasing in private beta.
+Building energy codes specialist and full-stack developer with 12 years of experience as a Title 24 Part 6 subject matter expert. I build tools, training, and resources for Title 24 stakeholders, and I support development of energy codes and standards such as Title 24 Part 6 and the Washington State Energy Code (WSEC). I lead an interdisciplinary team to build Virtual Compliance Assistant, a Title 24 Part 6 form completion tool, and I maintain a data pipeline and associated schemas used to inform future policy decisions for building energy codes. I am the founder of Wattly, Title 24 BEM and Energy Code compliance software covering performance and prescriptive compliance, currently awaiting CEC certification for the 2025 Energy Code.
 
 ## Experience
 
 NORESCO. Senior Energy Analyst, 2024 to present. Energy Analyst III, 2021 to 2024. Energy Analyst II, 2019 to 2021.
 
-- Lead an interdisciplinary team of software developers and subject matter experts to build Virtual Compliance Assistant, used to demonstrate California Title 24 Part 6 prescriptive compliance, digitizing hand-filled paper forms and fragmented tools.
-- Built and maintain a data pipeline and schema used to inform future policy decisions for building energy codes.
+- Lead an interdisciplinary team of software developers and subject matter experts to build Virtual Compliance Assistant, a Title 24 Part 6 form completion tool used to demonstrate California Title 24 Part 6 prescriptive compliance. It digitized a process that used to be hand-filled paper forms and fragmented tools.
+- Built and maintain a data pipeline and associated schemas used to inform future policy decisions for building energy codes.
 - Develop and maintain the XSD ruleset used as shared infrastructure for public and private compliance tools in the state.
 - Deliver a secure API for large-scale building data.
-- Work with CEC, local government, IOUs, and CPUC Codes and Standards participants.
-- Support local governments on Reach Code adoption.
-- CASE subject-matter expert for the 2022, 2025, and 2028 Title 24, Part 6 cycles.
+- Build tools, training, and resources for Title 24 stakeholders, and support development of energy codes and standards such as Title 24 Part 6 and the Washington State Energy Code (WSEC).
+- Work with CEC, local governments, IOUs, and CPUC Codes and Standards participants. Support local governments on Reach Code adoption. CASE subject-matter expert for the 2022, 2025, and 2028 Title 24 Part 6 cycles.
 - Mentor junior staff. Manage workload and contract budget. Write statements of work.
 
 EnergySoft. Energy Analyst, 2015 to 2019. Intern, 2014 to 2015.
 
-- Building energy models for projects including Apple Park.
+- Building energy models for nonresidential projects including Apple Park.
 - Life-cycle cost analysis of nonresidential design options in EnergyPro.
 - Managed a team of energy consultants.
 
@@ -38,7 +37,7 @@ EnergySoft. Energy Analyst, 2015 to 2019. Intern, 2014 to 2015.
 
 ## Wattly
 
-Wattly (https://wattlysolutions.com). Founder. Title 24 BEM and compliance software for California, performance and prescriptive. Releasing in private beta.
+Wattly (https://wattlysolutions.com). Founder. Title 24 BEM and Energy Code compliance software for California, covering performance and prescriptive compliance. Currently awaiting CEC certification for the 2025 Energy Code. Releasing in private beta.
 
 ## Education
 
@@ -47,7 +46,7 @@ Wattly (https://wattlysolutions.com). Founder. Title 24 BEM and compliance softw
 
 ## Skills
 
-Domain: Title 24 Part 6 and Part 11, BEM, prescriptive and performance compliance, CASE, Reach Codes, EnergyPro, OpenStudio, EnergyPlus, CBECC, Wattly.  
+Domain: Title 24 Part 6 and Part 11, WSEC, BEM, prescriptive and performance compliance, CASE, Reach Codes, EnergyPro, OpenStudio, EnergyPlus, CBECC, Wattly.  
 Software: JavaScript, React, Python, C#, .NET, MySQL, PostgreSQL, Azure, AWS, Git, Django.
 
 *Draft only. The Oct 2024 PDF also says "win 7 figure contracts." That line is omitted here until confirmed. EnergySoft title is Energy Analyst per CONTENT.md, not Senior Nonresidential.*

@@ -26,7 +26,7 @@ for (const job of jobs) {
     format: "Letter",
     printBackground: true,
     preferCSSPageSize: false,
-    margin: { top: "0.45in", right: "0.55in", bottom: "0.42in", left: "0.55in" },
+    margin: { top: "0.4in", right: "0.5in", bottom: "0.38in", left: "0.5in" },
   });
   console.log(`wrote ${path.relative(process.cwd(), pdfPath)}`);
 }

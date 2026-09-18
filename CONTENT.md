@@ -41,11 +41,11 @@ Used on the site:
 
 Bullets used on the site are paraphrased from that PDF:
 
-- Lead an interdisciplinary team of software developers and subject matter experts to build **Virtual Compliance Assistant**, Title 24 Part 6 **prescriptive** compliance software
-- SQL database collecting public/private CA compliance-software data for CASE / CEC / CPUC
+- Lead an interdisciplinary team of software developers and subject matter experts to build **Virtual Compliance Assistant**, a Title 24 Part 6 **form completion tool**
+- Data pipeline and associated schemas used to inform future policy decisions for building energy codes
 - Maintain the XSD ruleset used as central infrastructure for CA compliance tools
 - Secure API for large-scale building data
-- Stakeholders: CEC, local government, IOUs, CPUC C&S; Reach Codes; CASE SME for 2022 / 2025 / 2028
+- Tools, training, and resources for Title 24 stakeholders; Title 24 Part 6 and WSEC; CEC, local government, IOUs, CPUC C&S; Reach Codes; CASE SME for 2022 / 2025 / 2028
 
 The PDF also includes leadership language (mentor junior staff, manage workload and contract budget, develop statements of work, “win 7 figure contracts”). The 7-figure claim is on the PDF but is **not** used on the public homepage. It appears only in the resume draft variants, marked as PDF-sourced.
 
@@ -198,9 +198,9 @@ https://github.com/BenLalor/LTS_ComplianceSoftware_VanillaJavascript
 | `public/resume/drafts/BenLalor_Resume_EnergyCodes.pdf` | Polished PDF of the energy-codes-forward draft |
 | `public/resume/drafts/BenLalor_Resume_Hybrid.pdf` | Polished PDF of the hybrid draft |
 
-CVs unslopped 2026-09-09 on Option A (`8ff5f81`) and ported here. The three markdown sources, PDF HTML templates (`scripts/resume-pdf/`), generated draft PDFs, and `/resume` body copy were rewritten to drop AI tells. Option B homepage copy stays on the earlier Option A site wording (hero, experience, talks).
+Draft résumés were aligned to current site language (2026-09-18): tools/training/resources and WSEC, Wattly as Title 24 BEM and Energy Code compliance software awaiting CEC certification for the 2025 Energy Code plus private beta, VCA as a named Title 24 Part 6 form completion tool, and associated schemas. Copy is more formal and more detailed than the homepage cards. Markdown sources, PDF HTML templates (`scripts/resume-pdf/`), generated draft PDFs (`npm run resume:pdf`), and `/resume` body copy stay in sync. Homepage Download CV still points at the Oct 2024 published PDF until a draft is chosen.
 
-Draft PDFs were copied from Option A rather than regenerated on this CRA branch. The HTML templates are kept as source. All three are labeled **drafts for review** on `/resume` and in the homepage contact section. **Ben will choose** which variant, if any, replaces the Oct 2024 published PDF.
+All three are labeled **drafts for review** on `/resume` and in the homepage contact section. **Ben will choose** which variant, if any, replaces the Oct 2024 published PDF.
 
 The energy-codes PDF omits the “7-figure contracts” line (not soft-confirmed for external use). EnergySoft is Energy Analyst on all three. Québec / eSim and private CalBEM watch URLs are omitted. C# / .NET is marked as newer than the Oct 2024 PDF where it appears. EnergySoft title note stays in CONTENT.md and italic markdown footers, not in the PDF body.
 

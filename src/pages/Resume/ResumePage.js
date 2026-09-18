@@ -118,20 +118,21 @@ function ResumePage() {
             <ul>
               <li style={{ color: theme.tertiary80 }}>
                 Lead an interdisciplinary team of software developers and
-                subject matter experts to build Virtual Compliance Assistant,
-                used to demonstrate California Title 24 Part 6 prescriptive
-                compliance, digitizing hand-filled paper forms and fragmented
+                subject matter experts to build Virtual Compliance Assistant, a
+                Title 24 Part 6 form completion tool. It digitized a process
+                that used to be hand-filled paper forms and fragmented tools.
+              </li>
+              <li style={{ color: theme.tertiary80 }}>
+                Built and maintain a data pipeline and associated schemas used
+                to inform future policy decisions for building energy codes.
+              </li>
+              <li style={{ color: theme.tertiary80 }}>
+                Develop and maintain the XSD ruleset used as shared
+                infrastructure across public and private California compliance
                 tools.
               </li>
               <li style={{ color: theme.tertiary80 }}>
-                Built and maintain a data pipeline and schema used to inform
-                future policy decisions for building energy codes.
-              </li>
-              <li style={{ color: theme.tertiary80 }}>
-                XSD ruleset shared across compliance tools.
-              </li>
-              <li style={{ color: theme.tertiary80 }}>
-                Secure API for large-scale building data.
+                Build a secure API for large-scale building data.
               </li>
             </ul>
             <p className="resume-subhead" style={{ color: theme.primary }}>
@@ -139,13 +140,21 @@ function ResumePage() {
             </p>
             <ul>
               <li style={{ color: theme.tertiary80 }}>
-                CEC, local government, IOUs, CPUC Codes and Standards.
+                Tools, training, and resources for Title 24 stakeholders.
+              </li>
+              <li style={{ color: theme.tertiary80 }}>
+                Support for energy codes and standards such as Title 24 Part 6
+                and the Washington State Energy Code (WSEC).
+              </li>
+              <li style={{ color: theme.tertiary80 }}>
+                California Energy Commission (CEC), local governments,
+                investor-owned utilities (IOUs), and CPUC Codes and Standards.
               </li>
               <li style={{ color: theme.tertiary80 }}>
                 Reach Code support for local governments.
               </li>
               <li style={{ color: theme.tertiary80 }}>
-                CASE SME for the 2022, 2025, and 2028 cycles.
+                CASE subject-matter expert for the 2022, 2025, and 2028 cycles.
               </li>
             </ul>
           </article>
@@ -160,10 +169,11 @@ function ResumePage() {
             </p>
             <ul>
               <li style={{ color: theme.tertiary80 }}>
-                Apple Park and other nonresidential energy models.
+                Building energy models for nonresidential projects including
+                Apple Park.
               </li>
               <li style={{ color: theme.tertiary80 }}>
-                EnergyPro LCCA. Consultant management.
+                EnergyPro life-cycle cost analysis. Consultant management.
               </li>
             </ul>
           </article>
@@ -181,14 +191,19 @@ function ResumePage() {
               >
                 Wattly
               </a>
-              . Founder. Title 24 BEM and compliance, performance and
-              prescriptive. Releasing in private beta.
+              . Founder. Title 24 BEM and Energy Code compliance software for
+              California, covering performance and prescriptive compliance.
+              Currently awaiting CEC certification for the 2025 Energy Code.
+              Releasing in private beta.
             </li>
             <li style={{ color: theme.tertiary80 }}>
-              Virtual Compliance Assistant. Lead, NORESCO.
+              Virtual Compliance Assistant. Lead, NORESCO. Title 24 Part 6 form
+              completion tool.
             </li>
             <li style={{ color: theme.tertiary80 }}>
-              Compliance data. Developer and maintainer, NORESCO.
+              Compliance data. Developer and maintainer, NORESCO. Data pipeline
+              and associated schemas used to inform future policy decisions for
+              building energy codes.
             </li>
           </ul>
         </section>
@@ -214,7 +229,7 @@ function ResumePage() {
               CABEC 2022. What is new with the 2022 Nonresidential energy code.
             </li>
             <li style={{ color: theme.tertiary80 }}>
-              CEC briefing. Commissioner McAllister technical staff on the
+              CEC briefing. Commissioner McAllister and technical staff on the
               NORESCO compliance database. No recording.
             </li>
           </ul>
@@ -241,7 +256,7 @@ function ResumePage() {
             </li>
             <li style={{ color: theme.tertiary80 }}>
               Energy modeling: OpenStudio, EnergyPlus, CBECC, EnergyPro, Wattly,
-              Title 24, BEM.
+              Title 24 Part 6, WSEC, BEM.
             </li>
           </ul>
         </section>
