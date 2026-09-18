@@ -122,14 +122,14 @@ function ResumePage() {
                 Title 24 Part 6 form completion tool.
               </li>
               <li style={{ color: theme.tertiary80 }}>
-                Maintain a data pipeline in AWS used to inform future policy
+                Develop and maintain a data pipeline in AWS used to inform future policy
                 decisions for building energy codes, including a secure API for
                 large-scale building data.
               </li>
               <li style={{ color: theme.tertiary80 }}>
                 Develop and maintain the XSD ruleset used as shared
-                infrastructure across public and private California compliance
-                tools.
+                infrastructure for Energy Code compliance tools in the state of
+                California.
               </li>
             </ul>
             <p className="resume-subhead" style={{ color: theme.primary }}>
@@ -149,13 +149,16 @@ function ResumePage() {
               </li>
               <li style={{ color: theme.tertiary80 }}>
                 Work with the California Energy Commission (CEC), local
-                governments, IOUs, and CPUC Codes and Standards. Support Reach
-                Code adoption for local governments.
+                governments, IOUs, and CPUC Codes and Standards to support
+                energy code compliance. Support Reach Code adoption for local
+                governments.
               </li>
               <li style={{ color: theme.tertiary80 }}>
                 Manage a team of direct reports, including career development
                 and growth. Delegate workload, review deliverables for technical
-                accuracy, and lead internal trainings on Cursor.
+                accuracy, and lead internal trainings on relevant subject
+                matters such as building science, software development, and AI
+                tooling.
               </li>
             </ul>
           </article>
@@ -257,7 +260,7 @@ function ResumePage() {
               Azure, AWS, Git, Django, Cursor.
             </li>
             <li style={{ color: theme.tertiary80 }}>
-              Energy modeling: OpenStudio, EnergyPlus, CBECC, EnergyPro, Wattly,
+              Energy modeling: EnergyPro, CBECC, Wattly, OpenStudio, EnergyPlus,
               Title 24 Part 6, WSEC, BEM.
             </li>
           </ul>

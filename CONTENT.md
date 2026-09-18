@@ -42,11 +42,11 @@ Used on the site:
 Bullets used on the site are paraphrased from that PDF:
 
 - Lead an interdisciplinary team of software developers and subject matter experts to build **Virtual Compliance Assistant**, a Title 24 Part 6 **form completion tool**
-- Maintain a data pipeline in AWS used to inform future policy decisions for building energy codes, including a secure API for large-scale building data
-- Maintain the XSD ruleset used as central infrastructure for CA compliance tools
+- Develop and maintain a data pipeline in AWS used to inform future policy decisions for building energy codes, including a secure API for large-scale building data
+- Maintain the XSD ruleset used as central infrastructure for Energy Code compliance tools in the state of California
 - Tools, training, and resources for Title 24 stakeholders on **Energy Code Ace**
 - Support development of future versions of energy codes and standards such as California's Energy Code (Title 24 Part 6) and WSEC. Subject matter expert for Codes and Standards Enhancement (CASE), Title 24 Part 6 code development, 2022 / 2025 / 2028
-- CEC, local government, IOUs, CPUC C&S; Reach Codes
+- CEC, local government, IOUs, CPUC C&S, to support energy code compliance; Reach Codes
 
 The PDF also includes leadership language (mentor junior staff, manage workload and contract budget, develop statements of work, “win 7 figure contracts”). The 7-figure claim is on the PDF but is **not** used on the public homepage. Resume drafts now say manage a team of direct reports, including career development, workload, and technical review of deliverables. Statements of work / 7-figure language stay omitted until confirmed.
 
@@ -169,7 +169,7 @@ October 2024 PDF / old site baseline:
 Site skills:
 
 - JavaScript, React, Python, C#, MySQL, PostgreSQL, Azure, AWS, Git, Django
-- Energy modeling: OpenStudio, EnergyPlus, CBECC, EnergyPro, Wattly, Title 24, BEM
+- Energy modeling: EnergyPro, CBECC, Wattly, OpenStudio, EnergyPlus, Title 24, BEM
 
 The PDF skills block did not extract as text (likely icon/image layout). The list above follows the 2026-09-06 brief.
 

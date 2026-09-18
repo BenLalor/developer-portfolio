@@ -168,6 +168,11 @@ body.compact {
   line-height: 1.22;
 }
 
+body.compact.tight {
+  font-size: 8.95pt;
+  line-height: 1.2;
+}
+
 body.compact h2 {
   margin: 7px 0 3px;
 }
