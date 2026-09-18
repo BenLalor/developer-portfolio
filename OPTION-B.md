@@ -26,7 +26,7 @@ Node may need the already-configured `NODE_OPTIONS=--openssl-legacy-provider` fl
 | Area | Ported |
 | --- | --- |
 | Hero / positioning | Energy-code SME + full-stack builder; Denver / Arvada, CO |
-| About | Daytime NORESCO Title 24 / XSD / data work; independent creator of Wattly |
+| About | Daytime NORESCO Title 24 / XSD / data work; founder of Wattly |
 | Experience | NORESCO Senior / III / II titles; EnergySoft **Energy Analyst** + Intern (not “Senior Nonresidential”) |
 | Selected work | Wattly (name only; prepared / not public); Title 24 prescriptive tooling; compliance data + rulesets; NRCC-LTS form tool. Calculator and Stock Visualizer removed |
 | Talks & publications | First-class section with verified links only |
@@ -36,7 +36,7 @@ Node may need the already-configured `NODE_OPTIONS=--openssl-legacy-provider` fl
 
 ## Guardrails kept
 
-- Wattly only — never “Wattly Solutions”; independent creator; not a launch
+- Wattly only — never “Wattly Solutions”; founder; not a launch
 - No Québec / eSim on the public site
 - No private CalBEM watch URL
 - ACEEE links the proceedings page, not a 404 PDF

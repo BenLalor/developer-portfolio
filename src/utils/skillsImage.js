@@ -77,8 +77,8 @@ import canva from '../assets/svg/skills/canva.svg'
 import wattly from '../assets/svg/skills/wattly.svg'
 import openstudio from '../assets/svg/skills/openstudio.svg'
 import energyplus from '../assets/svg/skills/energyplus.png'
-import cbecc from '../assets/svg/skills/cbecc.svg'
-import energypro from '../assets/svg/skills/energypro.svg'
+import cbecc from '../assets/svg/skills/cbecc.png'
+import energypro from '../assets/svg/skills/energypro.png'
 
 
 export const skillsImage = (skill) => {

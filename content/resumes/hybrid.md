@@ -6,7 +6,7 @@ https://www.benlalor.com · https://github.com/BenLalor · https://www.linkedin.
 
 ## Summary
 
-I build software for California energy codes. At NORESCO I lead a team of developers and subject matter experts building Title 24 Part 6 prescriptive compliance software, plus a data pipeline and schema used to inform future energy-code policy. Independently I create Wattly, Title 24 BEM and compliance software releasing in private beta.
+I build software for California energy codes. At NORESCO I lead a team of developers and subject matter experts building Title 24 Part 6 prescriptive compliance software, plus a data pipeline and schema used to inform future energy-code policy. I am the founder of Wattly, Title 24 BEM and compliance software releasing in private beta.
 
 ## Experience
 
@@ -34,7 +34,7 @@ Energy Analyst, 2015 to 2019. Intern, 2014 to 2015.
 
 ## Selected work
 
-- Wattly. Independent creator. Title 24 BEM and compliance, performance and prescriptive. Releasing in private beta.
+- Wattly. Founder. Title 24 BEM and compliance, performance and prescriptive. Releasing in private beta.
 - Prescriptive compliance software. Lead, NORESCO.
 - Compliance data and schema. Developer and maintainer, NORESCO.
 

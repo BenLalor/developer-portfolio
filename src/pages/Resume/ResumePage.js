@@ -171,7 +171,7 @@ function ResumePage() {
           <h2 style={{ color: theme.primary }}>Selected work</h2>
           <ul>
             <li style={{ color: theme.tertiary80 }}>
-              Wattly. Independent creator. Title 24 BEM and compliance,
+              Wattly. Founder. Title 24 BEM and compliance,
               performance and prescriptive. Releasing in private beta.
             </li>
             <li style={{ color: theme.tertiary80 }}>

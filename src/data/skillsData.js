@@ -17,4 +17,4 @@ export const skillsData = [
 ];
 
 export const skillNote =
-  "Day-to-day software and energy-modeling tools, including independent Wattly work.";
+  "Day-to-day software and energy-modeling tools, including Wattly.";

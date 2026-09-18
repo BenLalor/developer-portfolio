@@ -1,6 +1,6 @@
 import wattlyLogo from "../assets/svg/projects/wattly.svg";
-import ProjectSix from "../assets/svg/projects/six.svg";
-import ProjectFour from "../assets/svg/projects/four.svg";
+import prescriptiveGraphic from "../assets/svg/projects/prescriptive.svg";
+import dataSchemaGraphic from "../assets/svg/projects/data-schema.svg";
 
 export const projectsData = [
   {
@@ -12,7 +12,7 @@ export const projectsData = [
     code: "",
     demo: "",
     image: wattlyLogo,
-    kicker: "Independent creator",
+    kicker: "Founder",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ export const projectsData = [
     tags: [],
     code: "",
     demo: "",
-    image: ProjectSix,
+    image: prescriptiveGraphic,
     kicker: "NORESCO",
   },
   {
@@ -33,7 +33,7 @@ export const projectsData = [
     tags: [],
     code: "",
     demo: "",
-    image: ProjectFour,
+    image: dataSchemaGraphic,
     kicker: "NORESCO",
   },
 ];

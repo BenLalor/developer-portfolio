@@ -40,8 +40,8 @@
 
 .projectContent > img {
     width: auto;
-    max-width: 72%;
-    height: 88px;
+    max-width: 78%;
+    height: 96px;
     object-fit: contain;
     margin-bottom: 1.1rem;
 }

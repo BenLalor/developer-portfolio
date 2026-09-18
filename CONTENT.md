@@ -146,7 +146,7 @@ Conference pages exist and may be linked later as *future interest* if clearly l
 Used on the site:
 
 - Name: **Wattly** only — never “Wattly Solutions”
-- Credit: “Independent creator of Wattly” / “Creator of Wattly”
+- Credit: “Founder of Wattly”
 - Domain: Title 24 BEM / compliance software for California (performance + prescriptive)
 - Status: releasing in private beta
 - Tone borrowed from wattlysolutions.com (“building energy modeling” made simpler, consultant workflows) **without** the company name, waitlist, or a public feature matrix

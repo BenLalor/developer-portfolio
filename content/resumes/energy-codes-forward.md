@@ -6,7 +6,7 @@ https://www.benlalor.com · https://github.com/BenLalor · https://www.linkedin.
 
 ## Summary
 
-Building energy codes specialist and full-stack developer with 12 years in California Title 24 Part 6. I lead work on prescriptive compliance software, compliance data and schema infrastructure, and CASE / Reach Code support. Independent creator of Wattly, Title 24 BEM and compliance software releasing in private beta.
+Building energy codes specialist and full-stack developer with 12 years in California Title 24 Part 6. I lead work on prescriptive compliance software, compliance data and schema infrastructure, and CASE / Reach Code support. Founder of Wattly, Title 24 BEM and compliance software releasing in private beta.
 
 ## Experience
 
@@ -36,9 +36,9 @@ EnergySoft. Energy Analyst, 2015 to 2019. Intern, 2014 to 2015.
 - CABEC 2026, upcoming. AI for Energy Consultants. https://cabec.org/conference2026/
 - Technical briefing for CEC Commissioner Andrew McAllister and senior staff on the NORESCO Codes and Standards database.
 
-## Independent software
+## Wattly
 
-Wattly. Independent creator. Title 24 BEM and compliance software for California, performance and prescriptive. Releasing in private beta.
+Wattly. Founder. Title 24 BEM and compliance software for California, performance and prescriptive. Releasing in private beta.
 
 ## Education
 
