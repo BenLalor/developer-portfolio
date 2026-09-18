@@ -1,15 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 160" role="img" aria-label="Database">
-  <!-- Cream stacked cylinder so it reads on the army-green work card -->
-  <g stroke="#F3EFE0" stroke-width="4" stroke-linejoin="round">
-    <path d="M58 44 v70 c0 15.5 31 28 70 28 s70-12.5 70-28 V44" fill="#6B7433"/>
-    <ellipse cx="128" cy="114" rx="70" ry="26" fill="#8A9350"/>
-    <ellipse cx="128" cy="79" rx="70" ry="26" fill="#C9CBA8"/>
-    <ellipse cx="128" cy="44" rx="70" ry="26" fill="#F3EFE0"/>
-  </g>
-  <g fill="#576422">
-    <rect x="98" y="68" width="24" height="5" rx="2"/>
-    <rect x="98" y="80" width="36" height="5" rx="2"/>
-    <rect x="98" y="103" width="24" height="5" rx="2"/>
-    <rect x="98" y="115" width="36" height="5" rx="2"/>
+  <!-- Outline cylinder: one cream stroke, no sandwich fills -->
+  <g fill="none" stroke="#F3EFE0" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">
+    <ellipse cx="128" cy="40" rx="70" ry="20"/>
+    <path d="M58 40v80c0 11 31.3 20 70 20s70-9 70-20V40"/>
+    <path d="M58 66c0 11 31.3 20 70 20s70-9 70-20"/>
+    <path d="M58 92c0 11 31.3 20 70 20s70-9 70-20"/>
   </g>
 </svg>
