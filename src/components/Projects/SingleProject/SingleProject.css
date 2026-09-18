@@ -28,7 +28,7 @@
     text-align: center;
 }
 
-.projectContent > h2 {
+.projectContent h2 {
     font-family: var(--primaryFont);
     font-style: normal;
     font-weight: 600;
@@ -38,12 +38,25 @@
     margin: 0 0 1rem;
 }
 
-.projectContent > img {
+.projectContent img {
     width: auto;
     max-width: 78%;
     height: 96px;
     object-fit: contain;
     margin-bottom: 1.1rem;
+}
+
+.project-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.project-link:hover h2,
+.project-link:focus h2 {
+    text-decoration: underline;
 }
 
 .singleProject .project--desc {

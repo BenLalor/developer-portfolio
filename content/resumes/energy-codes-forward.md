@@ -38,7 +38,7 @@ EnergySoft. Energy Analyst, 2015 to 2019. Intern, 2014 to 2015.
 
 ## Wattly
 
-Wattly. Founder. Title 24 BEM and compliance software for California, performance and prescriptive. Releasing in private beta.
+Wattly (https://wattlysolutions.com). Founder. Title 24 BEM and compliance software for California, performance and prescriptive. Releasing in private beta.
 
 ## Education
 

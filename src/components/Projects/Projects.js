@@ -31,6 +31,7 @@ function Projects() {
                   desc={project.projectDesc}
                   image={project.image}
                   kicker={project.kicker}
+                  url={project.demo}
                 />
               ))}
             </div>

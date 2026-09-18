@@ -34,7 +34,7 @@ Energy Analyst, 2015 to 2019. Intern, 2014 to 2015.
 
 ## Selected work
 
-- Wattly. Founder. Title 24 BEM and compliance, performance and prescriptive. Releasing in private beta.
+- Wattly (https://wattlysolutions.com). Founder. Title 24 BEM and compliance, performance and prescriptive. Releasing in private beta.
 - Prescriptive compliance software. Lead, NORESCO.
 - Compliance data and schema. Developer and maintainer, NORESCO.
 

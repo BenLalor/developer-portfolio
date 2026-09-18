@@ -147,12 +147,13 @@ Used on the site:
 
 - Name: **Wattly** only — never “Wattly Solutions”
 - Credit: “Founder of Wattly”
+- Link: https://wattlysolutions.com (product name and logo on the personal site)
 - Domain: Title 24 BEM / compliance software for California (performance + prescriptive)
 - Status: releasing in private beta
 - Tone borrowed from wattlysolutions.com (“building energy modeling” made simpler, consultant workflows) **without** the company name, waitlist, or a public feature matrix
 - Do **not** claim CEC approval or public availability
 
-wattlysolutions.com (checked 2026-09-06) is a waitlist marketing page. That is a separate property. This personal site must not read as a product launch.
+wattlysolutions.com is the Wattly site. The personal site may link there. Do not write “Wattly Solutions” as the product name.
 
 **Open question:** when Wattly is public, what may be said, and under which name?
 
@@ -205,7 +206,7 @@ The energy-codes PDF omits the “7-figure contracts” line (not soft-confirmed
 
 ## Intentional non-claims
 
-- No public Wattly download, waitlist, or “Wattly Solutions”
+- No public Wattly download. The personal site may link to wattlysolutions.com. Do not write “Wattly Solutions” as the product name.
 - No Québec / eSim talks on the live IA
 - No private CalBEM watch URL
 - No ACEEE 404 PDF

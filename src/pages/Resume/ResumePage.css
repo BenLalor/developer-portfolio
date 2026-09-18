@@ -91,6 +91,11 @@
     margin-bottom: 0.35rem;
 }
 
+.resume-section a {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 800px) {
     .resumePage-header {
         height: 22vh;

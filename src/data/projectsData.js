@@ -2,6 +2,8 @@ import wattlyLogo from "../assets/svg/projects/wattly.svg";
 import prescriptiveGraphic from "../assets/svg/projects/prescriptive.svg";
 import dataSchemaGraphic from "../assets/svg/projects/data-schema.svg";
 
+export const wattlyUrl = "https://wattlysolutions.com";
+
 export const projectsData = [
   {
     id: 1,
@@ -10,7 +12,7 @@ export const projectsData = [
       "Title 24 BEM and compliance software for California, covering performance and prescriptive work. Releasing in private beta.",
     tags: [],
     code: "",
-    demo: "",
+    demo: wattlyUrl,
     image: wattlyLogo,
     kicker: "Founder",
   },
