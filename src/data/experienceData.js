@@ -15,7 +15,7 @@ export const experienceData = [
       "Built and maintain a data pipeline and associated schemas used to inform future policy decisions for building energy codes.",
       "Develop and maintain the XSD ruleset used as central infrastructure for public and private California compliance tools.",
       "Build a secure API for efficient transmission of large-scale building data.",
-      "Build tools, training, and resources for Title 24 stakeholders, and support development of energy codes and standards such as Title 24 Part 6 and the Washington State Energy Code (WSEC).",
+      "Build tools, training, and resources for Title 24 stakeholders, and support development of energy codes and standards such as California's Energy Code (Title 24 Part 6) and the Washington State Energy Code (WSEC).",
       "Work with CEC, local governments, IOUs, and CPUC Codes and Standards participants. Support Reach Code adoption. Serve as a CASE subject-matter expert for the 2022, 2025, and 2028 code cycles.",
     ],
   },
