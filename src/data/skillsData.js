@@ -1,19 +1,19 @@
 export const skillsData = [
   "Javascript",
+  "OpenStudio",
   "React",
+  "EnergyPlus",
   "Python",
+  "CBECC",
   "C#",
+  "EnergyPro",
   "MySQL",
+  "Wattly",
   "PostgreSQL",
   "Azure",
   "AWS",
   "Git",
   "Django",
-  "OpenStudio",
-  "EnergyPlus",
-  "CBECC",
-  "EnergyPro",
-  "Wattly",
 ];
 
 export const skillNote =

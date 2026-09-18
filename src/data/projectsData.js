@@ -18,9 +18,9 @@ export const projectsData = [
   },
   {
     id: 2,
-    projectName: "Prescriptive compliance software",
+    projectName: "Virtual Compliance Assistant",
     projectDesc:
-      "Lead a team of developers and subject matter experts who built an application used to demonstrate California Title 24 Part 6 prescriptive compliance. It digitized a process that used to be hand-filled paper forms and fragmented tools.",
+      "Lead an interdisciplinary team of software developers and subject matter experts to build Title 24 Part 6 prescriptive compliance software. It digitized a process that used to be hand-filled paper forms and fragmented tools.",
     tags: [],
     code: "",
     demo: "",
@@ -29,7 +29,7 @@ export const projectsData = [
   },
   {
     id: 3,
-    projectName: "Compliance data and schema",
+    projectName: "Compliance data",
     projectDesc:
       "Built and maintain a data pipeline and schema used to inform future policy decisions for building energy codes.",
     tags: [],

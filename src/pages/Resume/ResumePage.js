@@ -117,10 +117,11 @@ function ResumePage() {
             </p>
             <ul>
               <li style={{ color: theme.tertiary80 }}>
-                Lead a team of developers and subject matter experts who built
-                an application used to demonstrate California Title 24 Part 6
-                prescriptive compliance, digitizing hand-filled paper forms and
-                fragmented tools.
+                Lead an interdisciplinary team of software developers and
+                subject matter experts to build Virtual Compliance Assistant,
+                used to demonstrate California Title 24 Part 6 prescriptive
+                compliance, digitizing hand-filled paper forms and fragmented
+                tools.
               </li>
               <li style={{ color: theme.tertiary80 }}>
                 Built and maintain a data pipeline and schema used to inform
@@ -184,10 +185,10 @@ function ResumePage() {
               prescriptive. Releasing in private beta.
             </li>
             <li style={{ color: theme.tertiary80 }}>
-              Prescriptive compliance software. Lead, NORESCO.
+              Virtual Compliance Assistant. Lead, NORESCO.
             </li>
             <li style={{ color: theme.tertiary80 }}>
-              Compliance data and schema. Developer and maintainer, NORESCO.
+              Compliance data. Developer and maintainer, NORESCO.
             </li>
           </ul>
         </section>

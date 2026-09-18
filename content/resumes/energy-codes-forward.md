@@ -12,7 +12,7 @@ Building energy codes specialist and full-stack developer with 12 years in Calif
 
 NORESCO. Senior Energy Analyst, 2024 to present. Energy Analyst III, 2021 to 2024. Energy Analyst II, 2019 to 2021.
 
-- Lead a team of developers and subject matter experts who built an application used to demonstrate California Title 24 Part 6 prescriptive compliance, digitizing hand-filled paper forms and fragmented tools.
+- Lead an interdisciplinary team of software developers and subject matter experts to build Virtual Compliance Assistant, used to demonstrate California Title 24 Part 6 prescriptive compliance, digitizing hand-filled paper forms and fragmented tools.
 - Built and maintain a data pipeline and schema used to inform future policy decisions for building energy codes.
 - Develop and maintain the XSD ruleset used as shared infrastructure for public and private compliance tools in the state.
 - Deliver a secure API for large-scale building data.

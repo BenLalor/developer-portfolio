@@ -27,6 +27,8 @@ function Education() {
               startYear={edu.startYear}
               endYear={edu.endYear}
               notes={edu.notes}
+              logo={edu.logo}
+              logoAlt={edu.logoAlt}
             />
           ))}
         </div>

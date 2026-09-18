@@ -32,7 +32,9 @@ function About() {
                       >
                         Wattly
                       </a>
-                      , Title 24 BEM and compliance software for California, releasing in private beta.
+                      , Title 24 BEM and Energy Code compliance software for
+                      California, releasing in private beta. I am currently
+                      awaiting CEC certification for the 2025 Energy Code.
                     </p>
                 </div>
                 <div className="about-img">

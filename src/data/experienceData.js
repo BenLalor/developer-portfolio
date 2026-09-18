@@ -11,7 +11,7 @@ export const experienceData = [
       { title: "Energy Analyst II", dates: "2019 to 2021" },
     ],
     bullets: [
-      "Lead a team of developers and subject matter experts who built an application used to demonstrate California Title 24 Part 6 prescriptive compliance, digitizing hand-filled paper forms and fragmented tools.",
+      "Lead an interdisciplinary team of software developers and subject matter experts to build Virtual Compliance Assistant, used to demonstrate California Title 24 Part 6 prescriptive compliance, digitizing hand-filled paper forms and fragmented tools.",
       "Built and maintain a data pipeline and schema used to inform future policy decisions for building energy codes.",
       "Develop and maintain the XSD ruleset used as central infrastructure for public and private California compliance tools.",
       "Build a secure API for efficient transmission of large-scale building data.",

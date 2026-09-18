@@ -8,7 +8,16 @@ import eduImgWhite from "../../assets/svg/education/eduImgWhite.svg";
 import eduImgBlack from "../../assets/svg/education/eduImgBlack.svg";
 import "./Education.css";
 
-function EducationCard({ id, institution, course, startYear, endYear, notes }) {
+function EducationCard({
+  id,
+  institution,
+  course,
+  startYear,
+  endYear,
+  notes,
+  logo,
+  logoAlt,
+}) {
   const { theme } = useContext(ThemeContext);
 
   const useStyles = makeStyles((t) => ({
@@ -30,8 +39,14 @@ function EducationCard({ id, institution, course, startYear, endYear, notes }) {
   return (
     <Fade bottom>
       <div key={id} className={`education-card ${classes.educationCard}`}>
-        <div className="educard-img" style={{ backgroundColor: theme.primary }}>
-          <img src={theme.type === "light" ? eduImgBlack : eduImgWhite} alt="" />
+        <div
+          className={`educard-img${logo ? " educard-img--logo" : ""}`}
+          style={{ backgroundColor: logo ? "#ffffff" : theme.primary }}
+        >
+          <img
+            src={logo || (theme.type === "light" ? eduImgBlack : eduImgWhite)}
+            alt={logo ? logoAlt || "" : ""}
+          />
         </div>
         <div className="education-details">
           {yearLabel && <h6 style={{ color: theme.primary }}>{yearLabel}</h6>}

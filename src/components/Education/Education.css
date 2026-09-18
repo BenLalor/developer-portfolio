@@ -56,6 +56,17 @@
     width: 40px;
 }
 
+.educard-img--logo {
+    padding: 2px;
+    overflow: hidden;
+}
+
+.educard-img--logo > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
 .education-details{
     margin-left: 0.6rem;
 }
@@ -150,6 +161,10 @@
     
     .educard-img > img {
         width: 30px;
+    }
+    .educard-img--logo > img {
+        width: 100%;
+        height: 100%;
     }
     .education-details > h6 {
         font-size: 0.85rem;

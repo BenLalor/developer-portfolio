@@ -41,7 +41,7 @@ Used on the site:
 
 Bullets used on the site are paraphrased from that PDF:
 
-- Lead team building a full-stack web app for Title 24 Part 6 **prescriptive** compliance
+- Lead an interdisciplinary team of software developers and subject matter experts to build **Virtual Compliance Assistant**, Title 24 Part 6 **prescriptive** compliance software
 - SQL database collecting public/private CA compliance-software data for CASE / CEC / CPUC
 - Maintain the XSD ruleset used as central infrastructure for CA compliance tools
 - Secure API for large-scale building data
@@ -49,7 +49,7 @@ Bullets used on the site are paraphrased from that PDF:
 
 The PDF also includes leadership language (mentor junior staff, manage workload and contract budget, develop statements of work, “win 7 figure contracts”). The 7-figure claim is on the PDF but is **not** used on the public homepage. It appears only in the resume draft variants, marked as PDF-sourced.
 
-The PDF summary calls the prescriptive tool “the most widely used tool in the state of California for prescriptive Energy Code compliance.” The ACEEE 2024 paper describes VCA in similar terms. The site describes Ben as **leading the team** on that product and does not independently certify market-share numbers.
+The PDF summary calls Virtual Compliance Assistant “the most widely used tool in the state of California for prescriptive Energy Code compliance.” The ACEEE 2024 paper describes VCA in similar terms. The site names the product and describes Ben as **leading an interdisciplinary team to build it**. It does not independently certify market-share numbers. Do **not** link VCA from the personal site.
 
 ### EnergySoft — title discrepancy
 
@@ -149,7 +149,7 @@ Used on the site:
 - Credit: “Founder of Wattly”
 - Link: https://wattlysolutions.com (product name and logo on the personal site)
 - Domain: Title 24 BEM / compliance software for California (performance + prescriptive)
-- Status: releasing in private beta
+- Status: releasing in private beta. Currently awaiting CEC certification for the 2025 Energy Code.
 - Tone borrowed from wattlysolutions.com (“building energy modeling” made simpler, consultant workflows) **without** the company name, waitlist, or a public feature matrix
 - Do **not** claim CEC approval or public availability
 

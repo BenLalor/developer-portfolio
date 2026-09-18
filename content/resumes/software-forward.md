@@ -14,7 +14,7 @@ Looking for software roles where energy-code domain knowledge is useful on the j
 
 NORESCO. Senior Energy Analyst, 2024 to present. Energy Analyst III, 2021 to 2024. Energy Analyst II, 2019 to 2021.
 
-- Lead a team of developers and subject matter experts who built an application used to demonstrate California Title 24 Part 6 prescriptive compliance, digitizing hand-filled paper forms and fragmented tools.
+- Lead an interdisciplinary team of software developers and subject matter experts to build Virtual Compliance Assistant, used to demonstrate California Title 24 Part 6 prescriptive compliance, digitizing hand-filled paper forms and fragmented tools.
 - Design and maintain a data pipeline and schema used to inform future policy decisions for building energy codes.
 - Develop and maintain the XSD ruleset used by public and private CA compliance tools.
 - Build a secure API for large-scale building-data transfer.
@@ -28,8 +28,8 @@ EnergySoft. Energy Analyst, 2015 to 2019. Intern, 2014 to 2015.
 ## Selected work
 
 - Wattly (https://wattlysolutions.com). Founder. Title 24 BEM and compliance software for California, performance and prescriptive. Releasing in private beta.
-- Title 24 prescriptive compliance software. Lead at NORESCO.
-- Compliance data and schema. Developer and maintainer, NORESCO.
+- Virtual Compliance Assistant. Lead at NORESCO.
+- Compliance data. Developer and maintainer, NORESCO.
 
 ## Talks and publications
 
