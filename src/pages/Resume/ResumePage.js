@@ -154,8 +154,8 @@ function ResumePage() {
               </li>
               <li style={{ color: theme.tertiary80 }}>
                 Manage a team of direct reports, including career development
-                and growth. Delegate workload and review deliverables for
-                technical accuracy.
+                and growth. Delegate workload, review deliverables for technical
+                accuracy, and lead internal trainings on Cursor.
               </li>
             </ul>
           </article>
@@ -254,7 +254,7 @@ function ResumePage() {
           <ul>
             <li style={{ color: theme.tertiary80 }}>
               Software: JavaScript, React, Python, C#, .NET, MySQL, PostgreSQL,
-              Azure, AWS, Git, Django, AI software development, knowledge tools.
+              Azure, AWS, Git, Django, Cursor.
             </li>
             <li style={{ color: theme.tertiary80 }}>
               Energy modeling: OpenStudio, EnergyPlus, CBECC, EnergyPro, Wattly,
