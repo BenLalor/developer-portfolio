@@ -23,7 +23,7 @@ Old site also listed Denver ZIP `80205` and a Stack Overflow profile. Neither is
 
 ## Bio
 
-Ben Lalor — Denver / Arvada, CO. Full-stack developer and building energy codes SME (~decade). Led digitization of California Title 24 Part 6 compliance tooling.
+Ben Lalor — Denver / Arvada, CO. Full-stack developer and building energy codes SME (~decade). Professional work: tools, training, and resources for Title 24 stakeholders, plus support for energy codes and standards including Title 24 Part 6 and the Washington State Energy Code (WSEC). Founder of Wattly.
 
 Source: 2026-09-06 brief, plus the Oct 2024 PDF professional summary.
 
@@ -149,7 +149,7 @@ Used on the site:
 - Credit: “Founder of Wattly”
 - Link: https://wattlysolutions.com (product name and logo on the personal site)
 - Domain: Title 24 BEM / compliance software for California (performance + prescriptive)
-- Status: releasing in private beta. Currently awaiting CEC certification for the 2025 Energy Code.
+- Status: releasing in private beta (Wattly work card). About copy: currently awaiting CEC certification for the 2025 Energy Code. Do not use “during the day.” Professional paragraph is generic stakeholder / codes work, including Title 24 Part 6 and WSEC, not compliance-software building.
 - Tone borrowed from wattlysolutions.com (“building energy modeling” made simpler, consultant workflows) **without** the company name, waitlist, or a public feature matrix
 - Do **not** claim CEC approval or public availability
 

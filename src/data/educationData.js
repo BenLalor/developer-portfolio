@@ -23,5 +23,6 @@ export const educationData = [
       "Thermal energy management, renewable energy systems, electrical energy management.",
     logo: sonomaStateLogo,
     logoAlt: "Sonoma State University logo",
+    logoWide: true,
   },
 ];

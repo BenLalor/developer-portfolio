@@ -29,6 +29,7 @@ function Education() {
               notes={edu.notes}
               logo={edu.logo}
               logoAlt={edu.logoAlt}
+              logoWide={edu.logoWide}
             />
           ))}
         </div>
