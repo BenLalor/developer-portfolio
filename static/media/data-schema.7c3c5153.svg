@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 160" role="img" aria-label="Database">
+  <!-- Outline cylinder: one cream stroke, no sandwich fills -->
+  <g fill="none" stroke="#F3EFE0" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">
+    <ellipse cx="128" cy="40" rx="70" ry="20"/>
+    <path d="M58 40v80c0 11 31.3 20 70 20s70-9 70-20V40"/>
+    <path d="M58 66c0 11 31.3 20 70 20s70-9 70-20"/>
+    <path d="M58 92c0 11 31.3 20 70 20s70-9 70-20"/>
+  </g>
+</svg>
