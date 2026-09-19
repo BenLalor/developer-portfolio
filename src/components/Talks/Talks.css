@@ -1,0 +1,166 @@
+.talks {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 3rem 6rem;
+}
+
+.talks-header {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.talks-header h1 {
+    font-family: var(--primaryFont);
+    font-size: 3.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.talks-header p {
+    font-family: var(--primaryFont);
+    font-size: 1.1rem;
+    max-width: 46rem;
+    line-height: 150%;
+}
+
+.talks-cards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.talks-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    min-height: 140px;
+    padding: 1.5rem;
+    border-radius: 20px;
+    margin-bottom: 1.5rem;
+    transition: background-color 200ms ease-in-out;
+}
+
+.talks-year {
+    border-radius: 50%;
+    min-width: 72px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-family: var(--primaryFont);
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.talks-details {
+    margin-left: 1.1rem;
+    width: 100%;
+}
+
+.talks-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 0.4rem;
+}
+
+.talks-venue {
+    font-family: var(--primaryFont);
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.talks-upcoming {
+    font-family: var(--primaryFont);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 0.15rem 0.55rem;
+    border-radius: 999px;
+}
+
+.talks-details h4 {
+    font-family: var(--primaryFont);
+    font-size: 1.225rem;
+    font-weight: 600;
+    line-height: 130%;
+}
+
+.talks-details p {
+    font-family: var(--primaryFont);
+    font-size: 0.95rem;
+    font-weight: 500;
+    line-height: 145%;
+    margin-top: 0.4rem;
+}
+
+.talks-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 0.75rem;
+}
+
+.talks-links a {
+    font-family: var(--primaryFont);
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.talks-engagement {
+    margin-top: 0.5rem;
+    padding: 1.25rem 1.5rem;
+    border-radius: 20px;
+}
+
+.talks-engagement h5 {
+    font-family: var(--primaryFont);
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+}
+
+.talks-engagement p {
+    font-family: var(--primaryFont);
+    font-size: 0.95rem;
+    line-height: 145%;
+}
+
+@media screen and (max-width: 992px) {
+    .talks {
+        padding: 2rem;
+    }
+
+    .talks-header h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .talks {
+        padding: 1.25rem;
+    }
+
+    .talks-header h1 {
+        font-size: 2.5rem;
+    }
+
+    .talks-card {
+        flex-direction: column;
+        padding: 1.15rem;
+    }
+
+    .talks-details {
+        margin-left: 0;
+        margin-top: 0.85rem;
+    }
+}

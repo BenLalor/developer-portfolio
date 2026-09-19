@@ -1,51 +1,41 @@
-import CalculatorImage from "../assets/svg/projects/CalculatorImage.svg";
-import StockerImage from "../assets/svg/projects/StockerImage.svg";
-import LTSImage from "../assets/svg/projects/LTSImage.svg";
+import wattlyLogo from "../assets/svg/projects/wattly.svg";
+import prescriptiveGraphic from "../assets/svg/projects/prescriptive.svg";
+import dataSchemaGraphic from "../assets/svg/projects/data-schema.svg";
+
+export const wattlyUrl = "https://wattlysolutions.com";
 
 export const projectsData = [
   {
     id: 1,
-    projectName: "Calculator",
+    projectName: "Wattly",
     projectDesc:
-      "This project is a calculator that allows users to perform basic arithmetic operations.",
-    tags: ["React", "CSS", "JSX"],
-    code: "https://github.com/BenLalor/Calculator_React",
-    demo: "https://benlalor.github.io/Calculator_React/",
-    image: CalculatorImage,
+      "Title 24 BEM and compliance software for California, covering performance and prescriptive compliance. Releasing in private beta.",
+    tags: [],
+    code: "",
+    demo: wattlyUrl,
+    image: wattlyLogo,
+    kicker: "Founder",
   },
   {
     id: 2,
-    projectName: "Stock Data Visualizer",
+    projectName: "Virtual Compliance Assistant",
     projectDesc:
-      "This project allows a user to search for a stock and view historical and current financial data, visualized in a graph.",
-    tags: ["React", "CSS", "Alpha Vantage API"],
-    code: "https://github.com/BenLalor/Stock_Visualization_React",
-    demo: "https://benlalor.github.io/Stock_Visualization_React/",
-    image: StockerImage,
+      "Lead an interdisciplinary team of software developers and subject matter experts to build a Title 24 Part 6 form completion tool. It digitized a process that used to be hand-filled paper forms and fragmented tools.",
+    tags: [],
+    code: "",
+    demo: "",
+    image: prescriptiveGraphic,
+    kicker: "NORESCO",
   },
   {
     id: 3,
-    projectName: "Energy Code Form Completion Tool",
+    projectName: "Compliance data",
     projectDesc:
-      "Full stack web application that allows users to register, login, logout, complete the NRCC-LTS Energy Code Form, revisit and revise previously existing forms.",
-    tags: ["Flask", "Vanilla Javascript", "CSS", "HTML"],
-    code: "https://github.com/BenLalor/LTS_ComplianceSoftware_VanillaJavascript",
-    demo: "https://github.com/BenLalor/LTS_ComplianceSoftware_VanillaJavascript",
-    image: LTSImage,
+      "Develop and maintain data pipelines in AWS used to inform future policy decisions for building energy codes, including a secure API for large-scale building data.",
+    tags: [],
+    code: "",
+    demo: "",
+    image: dataSchemaGraphic,
+    kicker: "NORESCO",
   },
 ];
-
-// Do not remove any fields.
-// Leave it blank instead as shown below
-
-/* 
-{
-    id: 1,
-    projectName: 'Car Pooling System',
-    projectDesc: '',
-    tags: ['Flutter', 'React'],
-    code: '',
-    demo: '',
-    image: ''
-}, 
-*/

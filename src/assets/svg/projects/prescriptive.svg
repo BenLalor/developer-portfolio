@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 160" role="img" aria-label="Stacked paper forms">
+  <!-- Cream document stack, no Rx, so it reads on the army-green card -->
+  <g stroke="#F3EFE0" stroke-linejoin="round">
+    <rect x="68" y="32" width="104" height="116" rx="5" fill="#C9C3A8" stroke-width="2.5"/>
+    <rect x="78" y="22" width="104" height="116" rx="5" fill="#E4DEC6" stroke-width="2.5"/>
+    <rect x="88" y="12" width="104" height="116" rx="5" fill="#F3EFE0" stroke-width="2.5"/>
+  </g>
+  <g fill="none" stroke="#4B5320" stroke-width="4.5" stroke-linecap="round">
+    <line x1="108" y1="40" x2="174" y2="40"/>
+    <line x1="108" y1="58" x2="176" y2="58"/>
+    <line x1="108" y1="76" x2="176" y2="76"/>
+    <line x1="108" y1="94" x2="160" y2="94"/>
+  </g>
+</svg>

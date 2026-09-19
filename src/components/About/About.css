@@ -58,6 +58,11 @@
     font-family: var(--primaryFont);
 }
 
+.about-description a {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
 .about-img {
     margin-top: 40px;
     pointer-events: none;
