@@ -6,16 +6,16 @@ https://www.benlalor.com · https://github.com/BenLalor · https://www.linkedin.
 
 ## Summary
 
-Full-stack developer with 12 years of experience as a Title 24 Part 6 subject matter expert, building software tools for energy consultants, utilities, and state agencies. I lead an interdisciplinary team of software developers and subject matter experts to build Virtual Compliance Assistant, a Title 24 Part 6 form completion tool, and I maintain data pipelines in AWS used to inform future policy decisions for building energy codes. I am an early adopter of generative AI since 2022, applying it across software development, energy modeling, and knowledge workflows. I am the founder of Wattly, Title 24 BEM and Energy Code compliance software covering performance and prescriptive compliance, currently awaiting CEC certification for the 2025 Energy Code. Seeking software roles where energy-code domain knowledge is useful on the job.
+Full-stack developer with 12 years of experience as a Title 24 Part 6 subject matter expert, building software tools for energy consultants, utilities, and state agencies. I lead an interdisciplinary team of software developers and subject matter experts to build the Virtual Compliance Assistant, a Title 24 Part 6 form completion tool, and I maintain data pipelines in AWS used to inform future policy decisions for building energy codes. I am an early adopter of generative AI since 2022, applying it across software development, energy modeling, and knowledge workflows. I am the founder of Wattly, Title 24 BEM and Energy Code compliance software covering performance and prescriptive compliance, currently awaiting CEC certification for the 2025 Energy Code. Seeking software roles where energy-code domain knowledge is useful on the job.
 
 ## Experience
 
 NORESCO. Senior Energy Analyst, 2024 to present. Energy Analyst III, 2021 to 2024. Energy Analyst II, 2019 to 2021.
 
-- Lead an interdisciplinary team of software developers and subject matter experts to build Virtual Compliance Assistant, a Title 24 Part 6 form completion tool.
+- Lead an interdisciplinary team of software developers and subject matter experts to build the Virtual Compliance Assistant, a Title 24 Part 6 form completion tool.
 - Develop and maintain data pipelines in AWS used to inform future policy decisions for building energy codes, including a secure API for large-scale building data.
 - Develop and maintain the XSD ruleset used by Energy Code compliance tools in the state of California.
-- Build tools, training, and resources for Title 24 stakeholders on Energy Code Ace.
+- Build tools, training, and resources for Title 24 stakeholders for the Energy Code Ace platform.
 - Support development of future versions of energy codes and standards such as California's Energy Code (Title 24 Part 6) and the Washington State Energy Code (WSEC) as a Codes and Standards Enhancement (CASE) subject matter expert for Title 24 Part 6 code development in the 2022, 2025, and 2028 cycles.
 - Manage a team of direct reports, including career development and growth. Delegate workload, provide feedback, and lead internal trainings on relevant subject matters such as building science, software development, and AI tooling.
 

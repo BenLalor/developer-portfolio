@@ -118,7 +118,7 @@ function ResumePage() {
             <ul>
               <li style={{ color: theme.tertiary80 }}>
                 Lead an interdisciplinary team of software developers and
-                subject matter experts to build Virtual Compliance Assistant, a
+                subject matter experts to build the Virtual Compliance Assistant, a
                 Title 24 Part 6 form completion tool.
               </li>
               <li style={{ color: theme.tertiary80 }}>
@@ -138,7 +138,7 @@ function ResumePage() {
             <ul>
               <li style={{ color: theme.tertiary80 }}>
                 Build tools, training, and resources for Title 24 stakeholders
-                on Energy Code Ace.
+                for the Energy Code Ace platform.
               </li>
               <li style={{ color: theme.tertiary80 }}>
                 Support development of future versions of energy codes and
