@@ -41,14 +41,15 @@ Used on the site:
 
 Bullets used on the site are paraphrased from that PDF:
 
-- Lead an interdisciplinary team of software developers and subject matter experts to build **Virtual Compliance Assistant**, a Title 24 Part 6 **form completion tool**
+- Lead an interdisciplinary team of software developers and subject matter experts to build **the Virtual Compliance Assistant**, a Title 24 Part 6 **form completion tool**
 - Develop and maintain data pipelines in AWS used to inform future policy decisions for building energy codes, including a secure API for large-scale building data
 - Maintain the XSD ruleset used as central infrastructure for Energy Code compliance tools in the state of California
-- Tools, training, and resources for Title 24 stakeholders on **Energy Code Ace**
+- Tools, training, and resources for Title 24 stakeholders for **the Energy Code Ace platform**
 - Support development of future versions of energy codes and standards such as California's Energy Code (Title 24 Part 6) and WSEC. Subject matter expert for Codes and Standards Enhancement (CASE), Title 24 Part 6 code development, 2022 / 2025 / 2028
 - CEC, local government, IOUs, CPUC C&S, to support energy code compliance; Reach Codes
+- Manage a team of direct reports, including career development and growth. Delegate workload, provide feedback, and lead internal trainings on relevant subject matters such as building science, software development, and AI tooling.
 
-The PDF also includes leadership language (mentor junior staff, manage workload and contract budget, develop statements of work, “win 7 figure contracts”). The 7-figure claim is on the PDF but is **not** used on the public homepage. Resume drafts now say manage a team of direct reports, including career development, workload, and technical review of deliverables. Statements of work / 7-figure language stay omitted until confirmed.
+The Oct 2024 PDF also includes other leadership language (mentor junior staff, manage workload and contract budget, develop statements of work, “win 7 figure contracts”). The 7-figure claim is **not** used on the public site. The public Experience section and résumé drafts use the direct-reports bullet above. Statements of work / 7-figure language stay omitted until confirmed.
 
 The PDF summary calls Virtual Compliance Assistant “the most widely used tool in the state of California for prescriptive Energy Code compliance.” The ACEEE 2024 paper describes VCA in similar terms. The site names the product and describes Ben as **leading an interdisciplinary team to build it**. It does not independently certify market-share numbers. Do **not** link VCA from the personal site.
 
@@ -199,7 +200,7 @@ https://github.com/BenLalor/LTS_ComplianceSoftware_VanillaJavascript
 | `public/resume/drafts/BenLalor_Resume_EnergyCodes.pdf` | Polished PDF of the energy-codes-forward draft |
 | `public/resume/drafts/BenLalor_Resume_Hybrid.pdf` | Polished PDF of the hybrid draft |
 
-Draft résumés were aligned to current site language (2026-09-18): tools/training/resources on Energy Code Ace, future versions of energy codes, California's Energy Code (Title 24 Part 6) and WSEC, CASE spelled out, Wattly as Title 24 BEM and Energy Code compliance software awaiting CEC certification for the 2025 Energy Code plus private beta, VCA as a named Title 24 Part 6 form completion tool, AWS data pipeline plus secure API for large-scale building data, AI in software development and knowledge tools. Copy is more formal and more detailed than the homepage cards. Markdown sources, PDF HTML templates (`scripts/resume-pdf/`), generated draft PDFs (`npm run resume:pdf`), and `/resume` body copy stay in sync. Homepage Download CV points at `public/resume/BenLalor_Resume.pdf`, now the energy-codes-forward résumé posted 2026-09-18. Variants remain on `/resume`.
+Draft résumés were aligned to current site language (2026-09-23): tools/training/resources for the Energy Code Ace platform, future versions of energy codes, California's Energy Code (Title 24 Part 6) and WSEC, CASE spelled out, Wattly as Title 24 BEM and Energy Code compliance software awaiting CEC certification for the 2025 Energy Code plus private beta, running copy names the Virtual Compliance Assistant as a Title 24 Part 6 form completion tool, AWS data pipeline plus secure API for large-scale building data, AI in software development and knowledge tools. Copy is more formal and more detailed than the homepage cards. Markdown sources, PDF HTML templates (`scripts/resume-pdf/`), generated draft PDFs (`npm run resume:pdf`), and `/resume` body copy stay in sync. Homepage Download CV points at `public/resume/BenLalor_Resume.pdf`, the energy-codes-forward résumé. Variants remain on `/resume`.
 
 The energy-codes-forward résumé is the public Download CV. Software-forward and hybrid remain on `/resume` as variants.
 
