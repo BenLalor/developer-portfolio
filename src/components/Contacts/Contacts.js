@@ -159,6 +159,35 @@ function Contacts() {
     }
   };
 
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+
+    try {
+      const response = await fetch("https://formspree.io/f/meqyqvnl", {
+        method: "POST",
+        body: formData,
+        headers: { Accept: "application/json" },
+      });
+
+      if (!response.ok) {
+        throw new Error("Error submitting form");
+      }
+
+      setSuccess(true);
+      setErrMsg("Thanks! Your message was sent.");
+      setName("");
+      setEmail("");
+      setMessage("");
+    } catch (err) {
+      setSuccess(false);
+      setErrMsg(
+        `Sorry, your message could not be sent. Please email ${contactsData.email} directly.`
+      );
+    }
+    setOpen(true);
+  };
+
   return (
     <div
       className="contacts"
@@ -170,24 +199,7 @@ function Contacts() {
         <div className="contacts-body">
           <div className="contacts-form">
             <form
-              onSubmit={async (e) => {
-                e.preventDefault();
-                const formData = new FormData(e.target);
-                const response = await fetch(
-                  "https://formspree.io/f/meqyqvnl",
-                  {
-                    method: "POST",
-                    body: formData,
-                  }
-                );
-                if (response.ok) {
-                  // handle success
-                  console.log("Form successfully submitted");
-                } else {
-                  // handle error
-                  console.log("Error submitting form");
-                }
-              }}
+              onSubmit={handleSubmit}
             >
               <div className="input-container">
                 <label htmlFor="Name" className={classes.label}>
@@ -214,6 +226,7 @@ function Contacts() {
                   type="email"
                   name="Email"
                   className={`form-input ${classes.input}`}
+                  required
                 />
               </div>
               <div className="input-container">
