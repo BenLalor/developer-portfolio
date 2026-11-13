@@ -4,11 +4,12 @@ export const talksData = [
     year: "2026",
     venue: "CABEC Conference",
     title: "AI for Energy Consultants",
-    detail:
-      "Upcoming. Conference is September 15 to 17, 2026 in Petaluma. Session page not published separately.",
-    upcoming: true,
+    detail: "Conference presentation.",
     links: [
-      { label: "CABEC 2026 conference", href: "https://cabec.org/conference2026/" },
+      {
+        label: "Presentation",
+        href: "https://cabec.org/learning/2026-cabec-conference-presentations-ben-lalor/",
+      },
     ],
   },
   {
@@ -18,7 +19,6 @@ export const talksData = [
     title: "Capturing the Value of BEM Data for Policy and Programs",
     detail:
       "Power Talk. A recording exists on the CalBEM YouTube channel. Public release is pending, so no watch URL is listed here.",
-    upcoming: false,
     links: [
       { label: "2025 agenda", href: "https://calbem.ibpsa.us/2025-agenda/" },
       { label: "CalBEM 2025 recap", href: "https://calbem.ibpsa.us/2025/12/09/calbem-2025/" },
@@ -33,7 +33,6 @@ export const talksData = [
       "21st Century Compliance: Data-Driven Solutions for Decarbonization and Equity",
     detail:
       "Paper and presentation. Coauthors Sally Blair and Jill Marver.",
-    upcoming: false,
     links: [
       {
         label: "Paper PDF",
@@ -51,7 +50,6 @@ export const talksData = [
     venue: "CABEC Conference",
     title: "California Energy Code compliance software framework",
     detail: "Conference presentation.",
-    upcoming: false,
     links: [
       { label: "CABEC", href: "https://cabec.org/" },
       {
@@ -67,7 +65,6 @@ export const talksData = [
     title: "What's new with the 2022 Nonresidential energy code",
     detail:
       "Conference presentation. A dedicated 2022 conference page is no longer online.",
-    upcoming: false,
     links: [{ label: "CABEC", href: "https://cabec.org/" }],
   },
 ];

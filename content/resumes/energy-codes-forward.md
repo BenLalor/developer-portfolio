@@ -32,7 +32,7 @@ EnergySoft. Energy Analyst, 2015 to 2019. Intern, 2014 to 2015.
 - CalBEM 2025 Power Talk. Capturing the Value of BEM Data for Policy and Programs.
 - CABEC 2024. California Energy Code compliance software framework.
 - CABEC 2022. What is new with the 2022 Nonresidential energy code.
-- CABEC 2026, upcoming. AI for Energy Consultants. https://cabec.org/conference2026/
+- CABEC 2026. AI for Energy Consultants. https://cabec.org/learning/2026-cabec-conference-presentations-ben-lalor/
 - Technical briefing for CEC Commissioner Andrew McAllister and senior staff on the NORESCO Codes and Standards database.
 
 ## Wattly

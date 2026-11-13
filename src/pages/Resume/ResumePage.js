@@ -91,7 +91,7 @@ function ResumePage() {
         <section className={`resume-section ${classes.panel}`}>
           <h2 style={{ color: theme.primary }}>{headerData.name}</h2>
           <p className="resume-meta" style={{ color: theme.tertiary80 }}>
-            {headerData.location}
+            {resumeData.published.tagline}
           </p>
           <p className="resume-meta" style={{ color: theme.tertiary80 }}>
             {contactsData.email} · {contactsData.phone} · benlalor.com · GitHub
@@ -216,7 +216,7 @@ function ResumePage() {
           <h2 style={{ color: theme.primary }}>Talks and publications</h2>
           <ul>
             <li style={{ color: theme.tertiary80 }}>
-              CABEC 2026, upcoming. AI for Energy Consultants.
+              CABEC 2026. AI for Energy Consultants.
             </li>
             <li style={{ color: theme.tertiary80 }}>
               CalBEM 2025. Capturing the Value of BEM Data for Policy and

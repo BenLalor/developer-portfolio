@@ -32,7 +32,7 @@ EnergySoft. Energy Analyst, 2015 to 2019. Intern, 2014 to 2015.
 
 ## Talks and publications
 
-- CABEC 2026, upcoming. AI for Energy Consultants. https://cabec.org/conference2026/
+- CABEC 2026. AI for Energy Consultants. https://cabec.org/learning/2026-cabec-conference-presentations-ben-lalor/
 - CalBEM 2025 Power Talk. Capturing the Value of BEM Data for Policy and Programs.
 - ACEEE Summer Study 2024. 21st Century Compliance: Data-Driven Solutions for Decarbonization and Equity, with Sally Blair and Jill Marver.
 - CABEC 2024. California Energy Code compliance software framework.

@@ -3,6 +3,8 @@ export const resumeData = {
     label: "Current resume",
     href: "/resume/BenLalor_Resume.pdf",
     filename: "BenLalor_Resume.pdf",
+    tagline:
+      "Building Energy Code Specialist · Full-Stack Developer · Denver, CO",
   },
   drafts: [
     {
