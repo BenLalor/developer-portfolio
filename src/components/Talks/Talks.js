@@ -46,17 +46,6 @@ function Talks() {
                   <span className="talks-venue" style={{ color: theme.primary }}>
                     {talk.venue}
                   </span>
-                  {talk.upcoming && (
-                    <span
-                      className="talks-upcoming"
-                      style={{
-                        backgroundColor: theme.primary,
-                        color: theme.secondary,
-                      }}
-                    >
-                      Upcoming
-                    </span>
-                  )}
                 </div>
                 <h4 style={{ color: theme.tertiary }}>{talk.title}</h4>
                 <p style={{ color: theme.tertiary80 }}>{talk.detail}</p>

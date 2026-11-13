@@ -40,7 +40,7 @@ Node may need the already-configured `NODE_OPTIONS=--openssl-legacy-provider` fl
 - No Québec / eSim on the public site
 - No private CalBEM watch URL
 - ACEEE links the proceedings page, not a 404 PDF
-- CABEC 2026 listed as **Upcoming** (conference page only)
+- CABEC 2026 is a past talk. Link the presentation page. Do not mark it Upcoming.
 - EnergySoft titles follow the 2026-09-06 brief, not the in-repo PDF “Senior Nonresidential” line
 - No 7-figure contract claim on the homepage
 

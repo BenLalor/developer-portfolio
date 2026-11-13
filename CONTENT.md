@@ -116,14 +116,12 @@ No graduation years on the old site or in the brief. **Not invented.** Course no
 - Conference program PDF exists at https://cabec.org/wp-content/uploads/2024/09/2024_cabec_conf_program-2.pdf (large file). Not used as a session link because a dedicated session page was not verified
 - Site links https://cabec.org/ only
 
-### 5. CABEC 2026 — upcoming only
+### 5. CABEC 2026
 
 - Title: “AI for Energy Consultants”
-- Timing from the brief: ~September 16, 2026
-- Conference page (verified): https://cabec.org/conference2026/
-- Conference dates on that page: September 15–17, 2026, Petaluma (Sheraton Sonoma Wine Country); CEA exams / welcome reception September 14
-- **No session URL found.** Do not invent one.
-- Listed as **Upcoming**
+- Conference dates: September 15–17, 2026, Petaluma (Sheraton Sonoma Wine Country); CEA exams / welcome reception September 14
+- Presentation page: https://cabec.org/learning/2026-cabec-conference-presentations-ben-lalor/
+- Listed with the other past talks. Do not mark it Upcoming.
 
 ### 6. Québec / eSim (IBPSA-Canada) — NOT on the public site
 
@@ -191,8 +189,10 @@ https://github.com/BenLalor/LTS_ComplianceSoftware_VanillaJavascript
 
 | File | Role |
 | --- | --- |
-| `public/resume/BenLalor_Resume.pdf` | Current published résumé (energy-codes-forward, posted 2026-09-18) |
-| `/resume` | HTML / print draft, slightly more current |
+| `public/resume/BenLalor_Resume.pdf` | Current published résumé (general). Tagline: Building Energy Code Specialist · Full-Stack Developer · Denver, CO |
+| `scripts/resume-pdf/general.html` | HTML source that published PDF was rendered from |
+| `content/resumes/general.md` | Markdown source of the published résumé |
+| `/resume` | On-site résumé. Header tagline matches the published PDF |
 | `content/resumes/software-forward.md` | Source draft (markdown) |
 | `content/resumes/energy-codes-forward.md` | Source draft (markdown) |
 | `content/resumes/hybrid.md` | Source draft (markdown) |
@@ -200,9 +200,9 @@ https://github.com/BenLalor/LTS_ComplianceSoftware_VanillaJavascript
 | `public/resume/drafts/BenLalor_Resume_EnergyCodes.pdf` | Polished PDF of the energy-codes-forward draft |
 | `public/resume/drafts/BenLalor_Resume_Hybrid.pdf` | Polished PDF of the hybrid draft |
 
-Draft résumés were aligned to current site language (2026-09-23): tools/training/resources for the Energy Code Ace platform, future versions of energy codes, California's Energy Code (Title 24 Part 6) and WSEC, CASE spelled out, Wattly as Title 24 BEM and Energy Code compliance software awaiting CEC certification for the 2025 Energy Code plus private beta, running copy names the Virtual Compliance Assistant as a Title 24 Part 6 form completion tool, AWS data pipeline plus secure API for large-scale building data, AI in software development and knowledge tools. Copy is more formal and more detailed than the homepage cards. Markdown sources, PDF HTML templates (`scripts/resume-pdf/`), generated draft PDFs (`npm run resume:pdf`), and `/resume` body copy stay in sync. Homepage Download CV points at `public/resume/BenLalor_Resume.pdf`, the energy-codes-forward résumé. Variants remain on `/resume`.
+Draft résumés were aligned to current site language (2026-09-23): tools/training/resources for the Energy Code Ace platform, future versions of energy codes, California's Energy Code (Title 24 Part 6) and WSEC, CASE spelled out, Wattly as Title 24 BEM and Energy Code compliance software awaiting CEC certification for the 2025 Energy Code plus private beta, running copy names the Virtual Compliance Assistant as a Title 24 Part 6 form completion tool, AWS data pipeline plus secure API for large-scale building data, AI in software development and knowledge tools. Copy is more formal and more detailed than the homepage cards. Markdown sources, PDF HTML templates (`scripts/resume-pdf/`), and generated draft PDFs (`npm run resume:pdf`) stay in sync for the three variants. Homepage Download CV and the /resume “Current resume” link point at `public/resume/BenLalor_Resume.pdf`, the general résumé. Software-forward, energy-codes-forward, and hybrid remain on `/resume` as variants. `npm run resume:pdf` writes only those three draft PDFs. It does not overwrite the published file.
 
-The energy-codes-forward résumé is the public Download CV. Software-forward and hybrid remain on `/resume` as variants.
+The general résumé is the public Download CV. Software-forward, energy-codes-forward, and hybrid remain on `/resume` as variants.
 
 The energy-codes PDF omits the “7-figure contracts” line (not soft-confirmed for external use). EnergySoft is Energy Analyst on all three. Québec / eSim and private CalBEM watch URLs are omitted. C# / .NET is marked as newer than the Oct 2024 PDF where it appears. EnergySoft title note stays in CONTENT.md and italic markdown footers, not in the PDF body.
 
@@ -212,5 +212,5 @@ The energy-codes PDF omits the “7-figure contracts” line (not soft-confirmed
 - No Québec / eSim talks on the live IA
 - No private CalBEM watch URL
 - No ACEEE 404 PDF
-- No invented CABEC 2026 session URL
+- CABEC 2026 links to the presentation page, not an invented session URL
 - `robots` metadata and `public/robots.txt` disallow indexing while this is a draft

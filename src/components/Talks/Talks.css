@@ -77,16 +77,6 @@
     font-weight: 700;
 }
 
-.talks-upcoming {
-    font-family: var(--primaryFont);
-    font-size: 0.75rem;
-    font-weight: 700;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    padding: 0.15rem 0.55rem;
-    border-radius: 999px;
-}
-
 .talks-details h4 {
     font-family: var(--primaryFont);
     font-size: 1.225rem;
